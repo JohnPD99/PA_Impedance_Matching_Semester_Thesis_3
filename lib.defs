@@ -1,0 +1,4 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+INCLUDE $HPEESOF_DIR/oalibs/dsp.defs
+DEFINE PA_Impedance_Matching_Semester_Thesis_3_lib PA_Impedance_Matching_Semester_Thesis_3_lib
+ASSIGN PA_Impedance_Matching_Semester_Thesis_3_lib libMode shared
