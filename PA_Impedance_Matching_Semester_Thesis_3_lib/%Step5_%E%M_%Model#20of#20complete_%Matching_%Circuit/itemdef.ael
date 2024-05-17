@@ -1,0 +1,10 @@
+create_item("Step5_EM_Model of complete_Matching_Circuit","Step5_EM_Model of complete_Matching_Circuit","X",16,-1,NULL,"Component Parameters",NULL,"%43?global %;%d:%t %# %44?0%:%31?%C%:_net%c%;%;%e %b%r%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%e","Step5_EM_Model of complete_Matching_Circuit","%t%b%r%38?%:\n%30?%s%:%k%?[%1i]%;=%s%;%;%e%e%;","",3,NULL,0,
+create_parm("l1","Subnetwork 3.0001 mm",66560,"StdFormSet",5,prm("StdForm","3.0001 mm")),
+create_parm("l2","Subnetwork 11.0214 mm",66560,"StdFormSet",5,prm("StdForm","11.0214 mm")),
+create_parm("l3","Subnetwork 1.3595 mm",66560,"StdFormSet",5,prm("StdForm","1.3595 mm")),
+create_parm("l4","Subnetwork 0.10001 mm",66560,"StdFormSet",5,prm("StdForm","0.10001 mm")),
+create_parm("l5","Subnetwork 1.95338 mm",66560,"StdFormSet",5,prm("StdForm","1.95338 mm")),
+create_parm("l6","Subnetwork 0.250054 mm",66560,"StdFormSet",5,prm("StdForm","0.250054 mm")),
+create_parm("l7","Subnetwork 1.04384 mm",66560,"StdFormSet",5,prm("StdForm","1.04384 mm")),
+create_parm("l8","Subnetwork 9.00001 mm",66560,"StdFormSet",5,prm("StdForm","9.00001 mm")),
+create_parm("l9","Subnetwork 5.85671 mm",66560,"StdFormSet",5,prm("StdForm","5.85671 mm")));

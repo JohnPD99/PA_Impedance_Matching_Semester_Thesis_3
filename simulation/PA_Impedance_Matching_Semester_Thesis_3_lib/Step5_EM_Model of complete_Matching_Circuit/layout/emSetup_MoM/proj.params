@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<parameters>
+    <parameter name="l1" value="3.0001 mm"/>
+    <parameter name="l2" value="11.0214 mm"/>
+    <parameter name="l3" value="1.3595 mm"/>
+    <parameter name="l4" value="0.10001 mm"/>
+    <parameter name="l5" value="1.95338 mm"/>
+    <parameter name="l6" value="0.250054 mm"/>
+    <parameter name="l7" value="1.04384 mm"/>
+    <parameter name="l8" value="9.00001 mm"/>
+    <parameter name="l9" value="5.85671 mm"/>
+</parameters>

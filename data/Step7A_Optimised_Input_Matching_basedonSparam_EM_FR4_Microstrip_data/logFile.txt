@@ -1,0 +1,262 @@
+
+hpeesofsim (*) 600.shp Apr  3 2024, MINT version 5
+    (64-bit windows built: Wed Apr 03, 2024 19:25:42 +0000)
+
+
+***** Simulation started at Fri May 17 20:57:23 2024
+      Running on host: "TrashLaptop"
+      In Directory: "C:\Users\johnd\Documents\PA_Impedance_Matching_Semester_Thesis_3\data"
+      Process ID: 15356
+
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with only one device attached (topology corrected): 10
+
+
+OPTIM Optim1[1] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step7A_Optimised_Input_Matching_basedonSparam_EM_FR4_Microstrip:schematic>  optIter=(0->1000)
+
+SP Optim1[1].SP1[0] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step7A_Optimised_Input_Matching_basedonSparam_EM_FR4_Microstrip:schematic>  optIter=0  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #0:
+  CurrentEF: 0.0529107253978619
+  Optimization variables:
+    X1.l1 = 3.0001e-03
+    X1.l2 = 11.0214e-03
+    X1.l3 = 1.3595e-03
+    X1.l4 = 100.01e-06
+
+SP Optim1[1].SP1[1] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step7A_Optimised_Input_Matching_basedonSparam_EM_FR4_Microstrip:schematic>  optIter=1  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #1:
+  CurrentEF: 0.0438442310389628
+  Optimization variables:
+    X1.l1 = 2.439974947344808e-03
+    X1.l2 = 12.58760350756773e-03
+    X1.l3 = 1.31053326761526e-03
+    X1.l4 = 341.5502089238304e-06
+
+SP Optim1[1].SP1[5] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step7A_Optimised_Input_Matching_basedonSparam_EM_FR4_Microstrip:schematic>  optIter=5  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #5:
+  CurrentEF: 0.0438442310389628
+  Optimization variables:
+    X1.l1 = 2.439974947344808e-03
+    X1.l2 = 12.58760350756773e-03
+    X1.l3 = 1.31053326761526e-03
+    X1.l4 = 341.5502089238304e-06
+
+SP Optim1[1].SP1[6] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step7A_Optimised_Input_Matching_basedonSparam_EM_FR4_Microstrip:schematic>  optIter=6  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #6:
+  CurrentEF: 0.0226627898464997
+  Optimization variables:
+    X1.l1 = 2.517883020606247e-03
+    X1.l2 = 12.74654042783879e-03
+    X1.l3 = 1.164601900001213e-03
+    X1.l4 = 241.3771234101015e-06
+
+SP Optim1[1].SP1[7] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step7A_Optimised_Input_Matching_basedonSparam_EM_FR4_Microstrip:schematic>  optIter=7  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #7:
+  CurrentEF: 0.0199781812739305
+  Optimization variables:
+    X1.l1 = 2.579987329902631e-03
+    X1.l2 = 12.98260685078355e-03
+    X1.l3 = 1.179995702343088e-03
+    X1.l4 = 307.3198306719468e-06
+
+SP Optim1[1].SP1[8] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step7A_Optimised_Input_Matching_basedonSparam_EM_FR4_Microstrip:schematic>  optIter=8  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #8:
+  CurrentEF: 0.0194839404763818
+  Optimization variables:
+    X1.l1 = 2.624008852835044e-03
+    X1.l2 = 12.99622846797511e-03
+    X1.l3 = 1.162116500318236e-03
+    X1.l4 = 324.0603848529103e-06
+
+SP Optim1[1].SP1[9] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step7A_Optimised_Input_Matching_basedonSparam_EM_FR4_Microstrip:schematic>  optIter=9  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #9:
+  CurrentEF: 0.0191011655018483
+  Optimization variables:
+    X1.l1 = 2.641934154537413e-03
+    X1.l2 = 12.99036921907589e-03
+    X1.l3 = 1.136595058362574e-03
+    X1.l4 = 311.5134984591568e-06
+
+SP Optim1[1].SP1[10] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step7A_Optimised_Input_Matching_basedonSparam_EM_FR4_Microstrip:schematic>  optIter=10  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #10:
+  CurrentEF: 0.0190981817857519
+  Optimization variables:
+    X1.l1 = 2.647142016730721e-03
+    X1.l2 = 12.98818930668687e-03
+    X1.l3 = 1.133955444831001e-03
+    X1.l4 = 311.4880889728963e-06
+
+SP Optim1[1].SP1[11] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step7A_Optimised_Input_Matching_basedonSparam_EM_FR4_Microstrip:schematic>  optIter=11  freq=(100 MHz->3 GHz)
+
+
+SP Optim1[1].SP1[11] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step7A_Optimised_Input_Matching_basedonSparam_EM_FR4_Microstrip:schematic>  optIter=11  freq=(100 MHz->3 GHz)
+
+
+SP Optim1[1].SP1[11] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step7A_Optimised_Input_Matching_basedonSparam_EM_FR4_Microstrip:schematic>  optIter=11  freq=(100 MHz->3 GHz)
+
+
+SP Optim1[1].SP1[11] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step7A_Optimised_Input_Matching_basedonSparam_EM_FR4_Microstrip:schematic>  optIter=11  freq=(100 MHz->3 GHz)
+
+
+SP Optim1[1].SP1[11] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step7A_Optimised_Input_Matching_basedonSparam_EM_FR4_Microstrip:schematic>  optIter=11  freq=(100 MHz->3 GHz)
+
+
+SP Optim1[1].SP1[11] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step7A_Optimised_Input_Matching_basedonSparam_EM_FR4_Microstrip:schematic>  optIter=11  freq=(100 MHz->3 GHz)
+
+
+SP Optim1[1].SP1[11] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step7A_Optimised_Input_Matching_basedonSparam_EM_FR4_Microstrip:schematic>  optIter=11  freq=(100 MHz->3 GHz)
+
+
+SP Optim1[1].SP1[11] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step7A_Optimised_Input_Matching_basedonSparam_EM_FR4_Microstrip:schematic>  optIter=11  freq=(100 MHz->3 GHz)
+
+
+SP Optim1[1].SP1[11] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step7A_Optimised_Input_Matching_basedonSparam_EM_FR4_Microstrip:schematic>  optIter=11  freq=(100 MHz->3 GHz)
+
+
+SP Optim1[1].SP1[11] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step7A_Optimised_Input_Matching_basedonSparam_EM_FR4_Microstrip:schematic>  optIter=11  freq=(100 MHz->3 GHz)
+
+
+SP Optim1[1].SP1[11] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step7A_Optimised_Input_Matching_basedonSparam_EM_FR4_Microstrip:schematic>  optIter=11  freq=(100 MHz->3 GHz)
+
+
+SP Optim1[1].SP1[11] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step7A_Optimised_Input_Matching_basedonSparam_EM_FR4_Microstrip:schematic>  optIter=11  freq=(100 MHz->3 GHz)
+
+
+SP Optim1[1].SP1[11] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step7A_Optimised_Input_Matching_basedonSparam_EM_FR4_Microstrip:schematic>  optIter=11  freq=(100 MHz->3 GHz)
+
+
+SP Optim1[1].SP1[11] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step7A_Optimised_Input_Matching_basedonSparam_EM_FR4_Microstrip:schematic>  optIter=11  freq=(100 MHz->3 GHz)
+
+
+SP Optim1[1].SP1[11] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step7A_Optimised_Input_Matching_basedonSparam_EM_FR4_Microstrip:schematic>  optIter=11  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #11:
+  CurrentEF: 0.0162138141568031
+  Optimization variables:
+    X1.l1 = 4.34848e-03
+    X1.l2 = 12.596e-03
+    X1.l3 = 1.06465e-03
+    X1.l4 = 311.488e-06
+
+SP Optim1[1].SP1[12] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step7A_Optimised_Input_Matching_basedonSparam_EM_FR4_Microstrip:schematic>  optIter=12  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #12:
+  CurrentEF: 0.015760812216842
+  Optimization variables:
+    X1.l1 = 4.348088958500845e-03
+    X1.l2 = 12.62495891515778e-03
+    X1.l3 = 1.082150615777724e-03
+    X1.l4 = 339.1855149515302e-06
+
+SP Optim1[1].SP1[13] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step7A_Optimised_Input_Matching_basedonSparam_EM_FR4_Microstrip:schematic>  optIter=13  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #13:
+  CurrentEF: 0.0157458486916101
+  Optimization variables:
+    X1.l1 = 4.347915768140873e-03
+    X1.l2 = 12.63299358011856e-03
+    X1.l3 = 1.084806559554337e-03
+    X1.l4 = 343.9894576585228e-06
+
+SP Optim1[1].SP1[14] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step7A_Optimised_Input_Matching_basedonSparam_EM_FR4_Microstrip:schematic>  optIter=14  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #14:
+  CurrentEF: 0.0146981336632895
+  Optimization variables:
+    X1.l1 = 4.426351723448123e-03
+    X1.l2 = 12.74564810643776e-03
+    X1.l3 = 1.034769048705122e-03
+    X1.l4 = 347.0898969890061e-06
+
+SP Optim1[1].SP1[15] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step7A_Optimised_Input_Matching_basedonSparam_EM_FR4_Microstrip:schematic>  optIter=15  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #15:
+  CurrentEF: 0.0123521287985225
+  Optimization variables:
+    X1.l1 = 4.499791909940171e-03
+    X1.l2 = 12.92884698536108e-03
+    X1.l3 = 1.004470899585477e-03
+    X1.l4 = 460.988902736366e-06
+
+SP Optim1[1].SP1[16] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step7A_Optimised_Input_Matching_basedonSparam_EM_FR4_Microstrip:schematic>  optIter=16  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #16:
+  CurrentEF: 0.0123521287985225
+  Optimization variables:
+    X1.l1 = 4.49979e-03
+    X1.l2 = 12.9288e-03
+    X1.l3 = 1.00447e-03
+    X1.l4 = 460.989e-06
+
+SP Optim1[1].SP1[17] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step7A_Optimised_Input_Matching_basedonSparam_EM_FR4_Microstrip:schematic>  optIter=17  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #17:
+  CurrentEF: 0.0107964381954077
+  Optimization variables:
+    X1.l1 = 4.577088919541228e-03
+    X1.l2 = 13.09314024995372e-03
+    X1.l3 = 983.5501993102124e-06
+    X1.l4 = 433.677326803987e-06
+
+SP Optim1[1].SP1[18] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step7A_Optimised_Input_Matching_basedonSparam_EM_FR4_Microstrip:schematic>  optIter=18  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #18:
+  CurrentEF: 0.0107320950942001
+  Optimization variables:
+    X1.l1 = 4.57711818880827e-03
+    X1.l2 = 13.11206046700982e-03
+    X1.l3 = 983.5562883378443e-06
+    X1.l4 = 431.8016689714678e-06
+
+SP Optim1[1].SP1[19] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step7A_Optimised_Input_Matching_basedonSparam_EM_FR4_Microstrip:schematic>  optIter=19  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #19:
+  CurrentEF: 0.0100827866491702
+  Optimization variables:
+    X1.l1 = 4.586414173766579e-03
+    X1.l2 = 13.13469704707754e-03
+    X1.l3 = 1.000973059901877e-03
+    X1.l4 = 464.7136339992923e-06
+
+SP Optim1[1].SP1[20] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step7A_Optimised_Input_Matching_basedonSparam_EM_FR4_Microstrip:schematic>  optIter=20  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #20:
+  CurrentEF: 0.00780588782970407
+  Optimization variables:
+    X1.l1 = 5.499781420570314e-03
+    X1.l2 = 13.14271044753516e-03
+    X1.l3 = 1.000434558822936e-03
+    X1.l4 = 464.4765739103874e-06
+
+SP Optim1[1].SP1[21] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step7A_Optimised_Input_Matching_basedonSparam_EM_FR4_Microstrip:schematic>  optIter=21  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #21:
+  CurrentEF: 0.00776193261541678
+  Optimization variables:
+    X1.l1 = 5.499781392555135e-03
+    X1.l2 = 13.14716900715632e-03
+    X1.l3 = 999.6475281310634e-06
+    X1.l4 = 463.8850918768294e-06
+
+SP Optim1[1].SP1[22] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step7A_Optimised_Input_Matching_basedonSparam_EM_FR4_Microstrip:schematic>  optIter=22  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #22:
+  CurrentEF: 0.00698971449078073
+  Optimization variables:
+    X1.l1 = 5.499779936356228e-03
+    X1.l2 = 13.32175225240399e-03
+    X1.l3 = 980.8111695678045e-06
+    X1.l4 = 445.7414598480092e-06
+Optim1[1] terminated due to no more improvement 
+
+Resource usage:
+  Total stopwatch time     =  2142.24 seconds.
+

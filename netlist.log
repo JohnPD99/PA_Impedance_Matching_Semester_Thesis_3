@@ -1,44 +1,72 @@
-; Top Design: "PA_Impedance_Matching_Semester_Thesis_3_lib:Step3A_Optimised_Input_Matching_basedonSparam_FR4_Microstrip:Optimised_Input_Matching_Microstrip"
+; Top Design: "PA_Impedance_Matching_Semester_Thesis_3_lib:Step9_S21_optimised:schematic"
 ; Netlisted using Hierarchy Policy: "Standard"
 
-Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=yes TopDesignName="PA_Impedance_Matching_Semester_Thesis_3_lib:Step3A_Optimised_Input_Matching_basedonSparam_FR4_Microstrip:Optimised_Input_Matching_Microstrip" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
-MLIN2:TL2  N__4 N__7 Subst="MSub1" W=0.37 mm L=5 mm opt{ 3 mm to 7 mm } Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
-MSTEP:Step1  N__5 N__4 Subst="MSub1" W1=0.61 mm W2=0.37 mm 
-MGAP:Gap1  N__21 N__22 Subst="MSub1" W=0.6 mm S=0.5 mm 
-MLIN2:TL1  N__0 N__5 Subst="MSub1" W=0.61 mm L=0.9 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
-MLIN2:TL7  N__19 N__8 Subst="MSub1" W=0.6 mm L=0.5 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
-MGAP:Gap2  N__2 N__24 Subst="MSub1" W=0.6 mm S=0.75 mm 
-MLIN2:TL4  N__2 N__16 Subst="MSub1" W=0.37 mm L=0.5 mm opt{ 0.25 mm to 2 mm } Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
-model MSub1 MSUB H=0.2104 mm Er=4.4 Mur=1 Cond=4.1E+7 Hu=1e+33 mm T=35 um TanD=0.02 Rough=1.6 um DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 
-#uselib "ckt" , "S2P"
-S2P:ATC600L_4P7  N__14 N__19 0 File="C:\Users\johnd\Documents\PA_Impedance_Matching_Semester_Thesis_3\data\600L_S2P_Horz\600L4R7.S2P" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
-MLIN2:TL3  N__9 N__2 Subst="MSub1" W=0.37 mm L=13 mm opt{ 10 mm to 16 mm } Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
-#uselib "ckt" , "S2P"
-S2P:ATC600L_2P7  N__2 N__25 0 File="C:\Users\johnd\Documents\PA_Impedance_Matching_Semester_Thesis_3\data\600L_S2P_Horz\600L2R7.S2P" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
-MLIN2:TL6  N__13 N__14 Subst="MSub1" W=0.6 mm L=0.5 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
-MLIN2:TL16  N__12 N__11 Subst="MSub1" W=0.6 mm L=0.5 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
-MSTEP:Step4  N__12 N__16 Subst="MSub1" W1=0.6 mm W2=0.37 mm 
-MLIN2:TL13  N__20 N__18 Subst="MSub1" W=0.6 mm L=0.25 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
-MLIN2:TL5  N__6 N__10 Subst="MSub1" W=0.37 mm L=0.5 mm opt{ 0.1 mm to 2 mm } Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
-MSTEP:Step2  N__13 N__7 Subst="MSub1" W1=0.6 mm W2=0.37 mm 
-MSTEP:Step3  N__8 N__9 Subst="MSub1" W1=0.6 mm W2=0.37 mm 
-MLIN2:TL14  N__18 N__23 Subst="MSub1" W=0.6 mm L=0.5 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
-MLIN2:TL15  N__11 N__17 Subst="MSub1" W=0.6 mm L=0.25 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
-MLIN2:TL10  N__25 0 Subst="MSub1" W=0.6 mm L=0.5 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
-R:R2  N__16 N__6 R=1.2 Ohm Noise=yes 
-MLIN2:TL11  N__14 N__21 Subst="MSub1" W=0.6 mm L=0.25 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
-MLIN2:TL12  N__22 N__19 Subst="MSub1" W=0.6 mm L=0.25 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
-MSTEP:Step5  N__23 N__6 Subst="MSub1" W1=0.6 mm W2=0.37 mm 
-MGAP:Gap3  N__17 N__20 Subst="MSub1" W=0.6 mm S=0.5 mm 
-MLIN2:TL17  N__24 N__25 Subst="MSub1" W=0.6 mm L=0.25 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
-Port:TermG1  N__10 0 Num=1 Z=50 Ohm Noise=yes 
-Port:TermG2  N__0 0 Num=2 Z=50 Ohm Noise=yes 
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=yes TopDesignName="PA_Impedance_Matching_Semester_Thesis_3_lib:Step9_S21_optimised:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+; Library Name: PA_Impedance_Matching_Semester_Thesis_3_lib
+; Cell Name: Step5_EM_Model of complete_Matching_Circuit
+; View Name: emModel
+define "Step5_EM_Model#20of#20complete_Matching_Circuit" ( P1  P2  P3  P4  P5  P6  P7  P8  P9  P10  P11  P12  P13  P14  P15  P16  P17  P18  ref=0 ) 
+parameters  l1=3.0001 mm  l2=11.0214 mm  l3=1.3595 mm  l4=0.10001 mm  l5=1.95338 mm  l6=0.250054 mm  l7=1.04384 mm  l8=9.00001 mm  l9=5.85671 mm 
+; MomCmpt model has node 0 as implicit reference. Ref node will be ignored and assumed to be grounded!
+em_data_name="PA_Impedance_Matching_Semester_Thesis_3_lib:Step5_EM_Model of complete_Matching_Circuit:emModel"
+em_data_p0="l1"
+em_data_v0=l1
+em_data_p1="l2"
+em_data_v1=l2
+em_data_p2="l3"
+em_data_v2=l3
+em_data_p3="l4"
+em_data_v3=l4
+em_data_p4="l5"
+em_data_v4=l5
+em_data_p5="l6"
+em_data_v5=l6
+em_data_p6="l7"
+em_data_v6=l7
+em_data_p7="l8"
+em_data_v7=l8
+em_data_p8="l9"
+em_data_v8=l9
+MomCmpt:em_data  P1 P2 P3 P4 P5 P6 P7 P8 P9 P10 \
+   P11 P12 P13 P14 P15 P16 P17 P18 \
+    name=em_data_name \
+    paramFile="" \
+    modelFile="C:/Users/johnd/Documents/PA_Impedance_Matching_Semester_Thesis_3/PA_Impedance_Matching_Semester_Thesis_3_lib/%Step5_%E%M_%Model#20of#20complete_%Matching_%Circuit/em%Model/model.ndx" \
+    p0="l1" v0=l1 v0_Resolution=0.0001 mm \
+    p1="l2" v1=l2 v1_Resolution=0.0001 mm \
+    p2="l3" v2=l3 v2_Resolution=0.0001 mm \
+    p3="l4" v3=l4 v3_Resolution=0.0001 mm \
+    p4="l5" v4=l5 v4_Resolution=0.0001 mm \
+    p5="l6" v5=l6 v5_Resolution=0.0001 mm \
+    p6="l7" v6=l7 v6_Resolution=0.0001 mm \
+    p7="l8" v7=l8 v7_Resolution=0.0001 mm \
+    p8="l9" v8=l9 v8_Resolution=0.0001 mm \
+    ModelReuse=1 \
+    ModelType="MOMMW" \
+    ExtrapolationMode="linear" \
+    EnforcePassivity=-1
+end "Step5_EM_Model#20of#20complete_Matching_Circuit"
 
-Zs_opt=6.89762-j*7.78518
+"Step5_EM_Model#20of#20complete_Matching_Circuit":X1  N__10 N__9 N__14 N__13 N__15 0 N__11 N__12 N__7 N__8 N__6 0 N__4 N__3 N__5 0 N__1 N__0 l1=3.0001 mm notune{ 1.5 mm to 4.5 mm by 0.3 mm } opt{ 1.5 mm to 4.5 mm } l2=11.0214 mm opt{ 5.51 mm to 16.5 mm } l3=1.3595 mm opt{ 0.68 mm to 2.04 mm } l4=0.10001 mm opt{ 0.1 mm to 0.15 mm } l5=1.95338 mm opt{ 0.977 mm to 2.93 mm } l6=0.250054 mm opt{ 0.125 mm to 0.375 mm } l7=1.04384 mm opt{ 0.522 mm to 1.57 mm } l8=9.00001 mm opt{ 4.5 mm to 13.5 mm } l9=5.85671 mm opt{ 2.93 mm to 8.79 mm } 
+#uselib "ckt" , "S2P"
+S2P:ATC600L_4P7  N__14 N__13 0 File="C:\Users\johnd\Documents\PA_Impedance_Matching_Semester_Thesis_3\data\600L_S2P_Horz\600L4R7.S2P" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+#uselib "ckt" , "S2P"
+S2P:ATC600L_2P7  N__15 0 0 File="C:\Users\johnd\Documents\PA_Impedance_Matching_Semester_Thesis_3\data\600L_S2P_Horz\600L2R7.S2P" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+R:R2  N__11 N__12 R=0 Ohm Noise=yes 
+#uselib "ckt" , "S2P"
+S2P:SNP1  N__7 N__8 0 File="C:\Users\johnd\Documents\PA_Impedance_Matching_Semester_Thesis_3\data\TQP9111.s2p" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+#uselib "ckt" , "S2P"
+S2P:ATC600L_3P0  N__6 0 0 File="C:\Users\johnd\Documents\PA_Impedance_Matching_Semester_Thesis_3\data\600L_S2P_Horz\600L3R0.S2P" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+#uselib "ckt" , "S2P"
+S2P:MURATA_1N  N__4 N__3 0 File="C:\Users\johnd\Documents\PA_Impedance_Matching_Semester_Thesis_3\data\LQG15hn\LQG15HN1N0B02.s2p" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+#uselib "ckt" , "S2P"
+S2P:ATC600L_1P5  N__5 0 0 File="C:\Users\johnd\Documents\PA_Impedance_Matching_Semester_Thesis_3\data\600L_S2P_Horz\600L1R5.S2P" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+#uselib "ckt" , "S2P"
+S2P:ATC600S_100P0  N__1 N__0 0 File="C:\Users\johnd\Documents\PA_Impedance_Matching_Semester_Thesis_3\data\600S_S2P_Horiz\600S101.S2P" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
 S_Param:SP1 CalcS=yes CalcY=no CalcZ=no GroupDelayAperture=1e-4 FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=no SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 SPSS_WSP=yes \
 SweepVar="freq" SweepPlan="SP1_stim" OutputPlan="SP1_Output" 
 
-SweepPlan: SP1_stim Start=0.1 GHz Stop=3 GHz Lin=2901 
+SweepPlan: SP1_stim Start=0.1 GHz Stop=3 GHz Step=1 MHz 
 
 OutputPlan:SP1_Output \
       Type="Output" \
@@ -49,21 +77,13 @@ OutputPlan:SP1_Output \
 
 #load "python","LinearCollapse"
 Component Module="LinearCollapse" Type="ModelExtractor" NetworkRepresentation=2
-aele Zin1=zin(S11,PortZ1);
+Port:TermG1  N__10 0 Num=1 Z=50 Ohm Noise=yes 
+Port:TermG2  N__9 0 Num=2 Z=50 Ohm Noise=yes 
 
-Optim:"Optim1" OptimType="random" ErrorForm="L2" SAProgressReport=0 MaxIters=1000 P=2 DesiredError=0.0 StatusLevel=4 FinalAnalysis="None" NormalizeGoals=yes SetBestValues=yes SaveSolns=yes SaveGoals=yes SaveOptimVars=no UpdateDataset=yes SaveNominal=no SaveAllIterations=no UseAllOptVars=yes UseAllGoals=yes SaveCurrentEF=no InitialTempControlMode=0 SANumTrialsPerIter=10 NumShootsPerIter=20 SATempControlAlpha=0.8 EnableCockpit=yes NormalizeError=yes SaveAllTrials=no UseAdvTermCriteria=no CostRelativeTol=1.0e-8 LimitOfContSmallImprovement=5 
+Optim:"Optim1" OptimType="random" ErrorForm="L2" SAProgressReport=0 MaxIters=30 P=2 DesiredError=0.0 StatusLevel=4 FinalAnalysis="None" NormalizeGoals=yes SetBestValues=yes SaveSolns=yes SaveGoals=yes SaveOptimVars=no UpdateDataset=yes SaveNominal=no SaveAllIterations=no UseAllOptVars=yes UseAllGoals=yes SaveCurrentEF=no InitialTempControlMode=0 SANumTrialsPerIter=10 NumShootsPerIter=20 SATempControlAlpha=0.8 EnableCockpit=yes NormalizeError=yes SaveAllTrials=no UseAdvTermCriteria=no CostRelativeTol=1.0e-8 LimitOfContSmallImprovement=5 
 
-OptimGoal:OptimGoal1 Expr="real(Zin1)" SimInstanceName="SP1" Weight=1 \
+OptimGoal:OptimGoal1 Expr="dB(S(2,1))" SimInstanceName="SP1" Weight=1.0 \
 IndepVar[1]="freq" \
-SpecLimitLine[1]="OptimGoal1_limit1" SpecLimitLine[2]="OptimGoal1_limit2" 
-SpecLimitLine:"OptimGoal1_limit1" Type="GreaterThan" Min=real(Zs_opt) - 0.01 Weight=1 \
-IndepVar[1]="freq" IndepMin[1]=2.4 GHz IndepMax[1]=2.406 GHz 
-SpecLimitLine:"OptimGoal1_limit2" Type="LessThan" Max=real(Zs_opt)+0.01 Weight=1 \
-IndepVar[1]="freq" IndepMin[1]=2.4 GHz IndepMax[1]=2.406 GHz 
-OptimGoal:OptimGoal2 Expr="imag(Zin1)" SimInstanceName="SP1" Weight=1 \
-IndepVar[1]="freq" \
-SpecLimitLine[1]="OptimGoal2_limit1" SpecLimitLine[2]="OptimGoal2_limit2" 
-SpecLimitLine:"OptimGoal2_limit1" Type="GreaterThan" Min=imag(Zs_opt) - 0.01 Weight=1 \
-IndepVar[1]="freq" IndepMin[1]=2.4 GHz IndepMax[1]=2.406 GHz 
-SpecLimitLine:"OptimGoal2_limit2" Type="LessThan" Max=imag(Zs_opt)+0.01 Weight=1 \
+SpecLimitLine[1]="OptimGoal1_limit1" 
+SpecLimitLine:"OptimGoal1_limit1" Type="GreaterThan" Min=28 Weight=1.0 \
 IndepVar[1]="freq" IndepMin[1]=2.4 GHz IndepMax[1]=2.406 GHz 

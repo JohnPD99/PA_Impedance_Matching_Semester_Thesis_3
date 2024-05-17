@@ -1,0 +1,5 @@
+jobName=EmPpMsgs
+jobType=emprep
+designName=PA_Impedance_Matching_Semester_Thesis_3_lib:Step5_EM_Model of complete_Matching_Circuit:layout_hpeesofsim
+ruleFilePath=
+addInfo="EM preprocessor messages displayed as DRC errors"
