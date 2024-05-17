@@ -52,3 +52,4 @@ S2P:ATC600L_2P7  N__2 0 0 File="C:\Users\johnd\Documents\PA_Impedance_Matching_S
 #uselib "ckt" , "S2P"
 S2P:ATC600L_4P7  N__17 N__18 0 File="C:\Users\johnd\Documents\PA_Impedance_Matching_Semester_Thesis_3\data\600L_S2P_Horz\600L4R7.S2P" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
 R:R2  N__7 N__20 R=0 Ohm Noise=yes 
+aele MuPrime1=mu_prime(S);

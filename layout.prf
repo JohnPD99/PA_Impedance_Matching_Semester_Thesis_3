@@ -55,7 +55,7 @@ majorGridDisplayY 5
 majorGridDisplayOn 1
 gridDisplayMode 0
 gridSnapOn 1
-gridSnapMode 3
+gridSnapMode 26
 gridColor 104
 windowLLX -5.000000
 windowLLY -5.000000
@@ -98,10 +98,10 @@ showConnectedLay 1
 showFixedSchem 0
 showFixedLay 1
 undoEditCount 100
-stepRepeatXspace 5.000000
-stepRepeatYspace 5.000000
-stepRepeatNumRows 1
-stepRepeatNumCols 1
+stepRepeatXspace 3.700000
+stepRepeatYspace 3.700000
+stepRepeatNumRows 3
+stepRepeatNumCols 10
 pinSizeUnits 1
 teeSizeUnits 1
 portSizeUnits 0
