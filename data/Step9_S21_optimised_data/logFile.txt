@@ -3,10 +3,10 @@ hpeesofsim (*) 600.shp Apr  3 2024, MINT version 5
     (64-bit windows built: Wed Apr 03, 2024 19:25:42 +0000)
 
 
-***** Simulation started at Fri May 17 22:31:51 2024
+***** Simulation started at Fri May 17 22:50:55 2024
       Running on host: "TrashLaptop"
       In Directory: "C:\Users\johnd\Documents\PA_Impedance_Matching_Semester_Thesis_3\data"
-      Process ID: 19208
+      Process ID: 12504
 
 Warning detected by hpeesofsim during netlist flattening.
     Touchstone file parser warning:
@@ -21,124 +21,18 @@ OPTIM Optim1[1] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step9_S21_optimised
 SP Optim1[1].SP1[0] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step9_S21_optimised:schematic>  optIter=0  freq=(100 MHz->3 GHz)
 
 Iteration/Trial #0:
-  CurrentEF: 0.000291990254949785
+  CurrentEF: 7.09318557262444e-05
   Optimization variables:
-    X1.l1 = 3.0001e-03
-    X1.l2 = 11.0214e-03
-    X1.l3 = 1.3595e-03
-    X1.l4 = 100.01e-06
-    X1.l5 = 1.95338e-03
-    X1.l6 = 250.054e-06
-    X1.l7 = 1.04384e-03
-    X1.l8 = 9.000009999999999e-03
-    X1.l9 = 5.85671e-03
-
-SP Optim1[1].SP1[1] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step9_S21_optimised:schematic>  optIter=1  freq=(100 MHz->3 GHz)
-
-Iteration/Trial #1:
-  CurrentEF: 0.000203451746463204
-  Optimization variables:
-    X1.l1 = 2.897821010751134e-03
-    X1.l2 = 11.34860589539282e-03
-    X1.l3 = 972.9410128573555e-06
-    X1.l4 = 114.9996353029697e-06
-    X1.l5 = 1.989732057312383e-03
-    X1.l6 = 237.8445792570973e-06
-    X1.l7 = 710.2430875816146e-06
-    X1.l8 = 7.975667434229583e-03
-    X1.l9 = 5.079871008454332e-03
-
-SP Optim1[1].SP1[7] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step9_S21_optimised:schematic>  optIter=7  freq=(100 MHz->3 GHz)
-
-Iteration/Trial #7:
-  CurrentEF: 0.000120986286542293
-  Optimization variables:
-    X1.l1 = 3.968100387192158e-03
-    X1.l2 = 8.958980088237171e-03
-    X1.l3 = 940.5181623811311e-06
-    X1.l4 = 113.7265509024731e-06
-    X1.l5 = 2.200195046506989e-03
-    X1.l6 = 189.5329573207385e-06
-    X1.l7 = 582.505743551982e-06
-    X1.l8 = 6.300737003792894e-03
-    X1.l9 = 5.172308985074434e-03
-
-SP Optim1[1].SP1[11] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step9_S21_optimised:schematic>  optIter=11  freq=(100 MHz->3 GHz)
-
-Iteration/Trial #11:
-  CurrentEF: 0.000114505509509432
-  Optimization variables:
-    X1.l1 = 4.449345622901675e-03
-    X1.l2 = 7.327671908622918e-03
-    X1.l3 = 777.9571024291523e-06
-    X1.l4 = 107.9807126298642e-06
-    X1.l5 = 1.932569332604198e-03
-    X1.l6 = 224.7103475956253e-06
-    X1.l7 = 710.4087959527428e-06
-    X1.l8 = 5.981633272651163e-03
-    X1.l9 = 5.442879386321399e-03
-
-SP Optim1[1].SP1[16] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step9_S21_optimised:schematic>  optIter=16  freq=(100 MHz->3 GHz)
-
-Iteration/Trial #16:
-  CurrentEF: 9.72477790460503e-05
-  Optimization variables:
-    X1.l1 = 2.001788059517594e-03
-    X1.l2 = 6.965633211200982e-03
-    X1.l3 = 874.3627012182229e-06
-    X1.l4 = 113.023546316569e-06
-    X1.l5 = 2.212834753061362e-03
-    X1.l6 = 185.5095185568552e-06
-    X1.l7 = 719.3742907446209e-06
-    X1.l8 = 6.021603654039833e-03
-    X1.l9 = 5.163975083203255e-03
-
-SP Optim1[1].SP1[18] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step9_S21_optimised:schematic>  optIter=18  freq=(100 MHz->3 GHz)
-
-Iteration/Trial #18:
-  CurrentEF: 8.40392190889348e-05
-  Optimization variables:
-    X1.l1 = 1.854117087649766e-03
-    X1.l2 = 6.717751878614542e-03
-    X1.l3 = 789.9302229042029e-06
-    X1.l4 = 114.6060162473742e-06
-    X1.l5 = 2.243359380700358e-03
-    X1.l6 = 189.762563834265e-06
-    X1.l7 = 711.5800728560028e-06
-    X1.l8 = 5.970628479285575e-03
-    X1.l9 = 4.610061965321146e-03
-
-SP Optim1[1].SP1[25] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step9_S21_optimised:schematic>  optIter=25  freq=(100 MHz->3 GHz)
-
-Iteration/Trial #25:
-  CurrentEF: 7.26563376639584e-05
-  Optimization variables:
-    X1.l1 = 1.868690810280208e-03
-    X1.l2 = 5.945899239328975e-03
-    X1.l3 = 692.2412743619859e-06
-    X1.l4 = 111.0331849234342e-06
-    X1.l5 = 2.242024107576671e-03
-    X1.l6 = 191.9131765239455e-06
-    X1.l7 = 682.2898486518205e-06
-    X1.l8 = 6.028028791777788e-03
-    X1.l9 = 4.054376958016902e-03
-
-SP Optim1[1].SP1[26] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step9_S21_optimised:schematic>  optIter=26  freq=(100 MHz->3 GHz)
-
-Iteration/Trial #26:
-  CurrentEF: 7.09309989599565e-05
-  Optimization variables:
-    X1.l1 = 1.802220906066973e-03
-    X1.l2 = 7.264743969087543e-03
-    X1.l3 = 728.1734734313902e-06
-    X1.l4 = 111.6815496476008e-06
-    X1.l5 = 2.21370624854203e-03
-    X1.l6 = 170.7157552401193e-06
-    X1.l7 = 579.8967446532878e-06
-    X1.l8 = 6.084462552406873e-03
-    X1.l9 = 4.085345290280065e-03
-Optim1[1] reached the iteration limit. 
+    X1.l1 = 1.80222e-03
+    X1.l2 = 7.26474e-03
+    X1.l3 = 728.173e-06
+    X1.l4 = 111.682e-06
+    X1.l5 = 2.21371e-03
+    X1.l6 = 170.716e-06
+    X1.l7 = 579.897e-06
+    X1.l8 = 6.08446e-03
+    X1.l9 = 4.08535e-03
 
 Resource usage:
-  Total stopwatch time     =   517.13 seconds.
+  Total stopwatch time     =   244.49 seconds.
 

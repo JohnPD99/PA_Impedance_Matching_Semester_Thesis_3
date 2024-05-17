@@ -10,7 +10,7 @@ ddoId = get_new(ddsId, "Object");
 // DataDisplay Object:
 	set(ddoId, "Path", dds_get_exec_path(what_file(0)));
 	set(ddoId, "Name", dds_get_exec_file(what_file(0)));
-	set(ddoId, "FileModifiedDateAndTime", "2024-05-17T20:40:16Z");
+	set(ddoId, "FileModifiedDateAndTime", "2024-05-17T20:55:13Z");
 	set(ddoId, "FileCreatedDateAndTime", "2024-05-17T20:29:04Z");
 	dssId = get(ddoId, "DatasetServer");
 // Default Dataset
@@ -392,7 +392,7 @@ markerID = get_new(goId0, "LineMarkerNew", "m1", "2.403 GHz", 0, "3504", "", 1, 
 ddWinId = get_new(ddsId, "Window", 200, -1080, 1536, 864);
 	set(ddWinId, "Object", ddoId);
 	set(ddWinId, "CurrentPage", 1832487041);
-	set(ddWinId, "PageViewRect_1832487041", list(-1109, 8735, 15128, -639));
+	set(ddWinId, "PageViewRect_1832487041", list(-1110, 8736, 15128, -639));
 	set(ddWinId, "Frame", list(200, -1080, 1536, 864));
 	set(ddWinId, "Maximized", FALSE);
 	set(ddWinId, "ForegroundColor", 0);

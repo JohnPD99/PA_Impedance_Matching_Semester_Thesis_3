@@ -2,14 +2,14 @@ Momentum Server logfile: momServer.log
 
 EM Model generation from "PA_Impedance_Matching_Semester_Thesis_3_lib:Step5_EM_Model of complete_Matching_Circuit:emModel"
   parameterNames = list("l1","l2","l3","l4","l5","l6","l7","l8","l9","Substrate","MeshDensity")
-  parameterValues = list("0.0015388","0.0074309","0.0007491","0.0001084","0.0022664","0.0001886","0.0015529","0.0061347","0.0033295","definedInState","20")
+  parameterValues = list("0.0016296","0.0061429","0.0019874","0.0001117","0.0019673","0.0001752","0.0005867","0.0067667","0.0042507","definedInState","20")
   topLevel design name = "PA_Impedance_Matching_Semester_Thesis_3_lib:Step9_S21_optimised:schematic"
   instance name = "X1.em_data"
-  processID = "56376@127.0.0.1:hpeesofsim:_unique58866_70"
+  processID = "59837@127.0.0.1:hpeesofsim:_unique58866_71"
   visible = TRUE
 Connected to external process by processID
-..handle = 30
-..pid = 56376@127.0.0.1:hpeesofsim:_unique58866_70
+..handle = 31
+..pid = 59837@127.0.0.1:hpeesofsim:_unique58866_71
 ..name = hpeesofsim
 Creating work design PA_Impedance_Matching_Semester_Thesis_3_lib:Step5_EM_Model of complete_Matching_Circuit:layout_hpeesofsim
 ..new work design opened
@@ -22,8 +22,8 @@ Starting EM simulation for design: PA_Impedance_Matching_Semester_Thesis_3_lib:S
   EM setup view name   : emSetup_hpeesofsim
   EM model design name   : PA_Impedance_Matching_Semester_Thesis_3_lib:Step5_EM_Model of complete_Matching_Circuit:emModel
 ..disable simulation log popup
-..simulation M240517224006 started
-..simulation M240517224006 ended
+..simulation M240517225449 started
+..simulation M240517225449 ended
 EM simulation finished successfully
 ..adding new data to EM model view: Success Added simulation data.
 ..deleting layout_hpeesofsim view for work design

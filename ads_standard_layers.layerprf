@@ -1,4 +1,36 @@
 <!DOCTYPE DisplayAttributes>
 <Lpp_Differences_List>
+    <LPP protect="1" purpose="drawing" layer="IC_pin1_marker"/>
+    <LPP protect="1" purpose="drawing" layer="IC_pin_number"/>
+    <LPP protect="1" purpose="drawing" layer="bond"/>
+    <LPP protect="1" purpose="drawing" layer="bound"/>
+    <LPP protect="1" purpose="drawing" layer="case_dimensions"/>
+    <LPP protect="1" purpose="drawing" layer="cond2"/>
+    <LPP protect="1" purpose="drawing" layer="default"/>
+    <LPP protect="1" purpose="drawing" layer="diel2"/>
+    <LPP protect="1" purpose="drawing" layer="diel"/>
+    <LPP protect="1" purpose="drawing" layer="leads"/>
+    <LPP protect="1" purpose="drawing" layer="momentum_err"/>
+    <LPP protect="1" purpose="drawing" layer="packages"/>
+    <LPP protect="1" purpose="drawing" layer="pc1"/>
+    <LPP protect="1" purpose="drawing" layer="pc2"/>
+    <LPP protect="1" purpose="drawing" layer="pc3"/>
+    <LPP protect="1" purpose="drawing" layer="pc4"/>
+    <LPP protect="1" purpose="drawing" layer="pc5"/>
+    <LPP protect="1" purpose="drawing" layer="pc6"/>
+    <LPP protect="1" purpose="drawing" layer="pc7"/>
+    <LPP protect="1" purpose="drawing" layer="pc8"/>
+    <LPP protect="1" purpose="drawing" layer="pcvia1"/>
+    <LPP protect="1" purpose="drawing" layer="pcvia2"/>
+    <LPP protect="1" purpose="drawing" layer="pcvia3"/>
+    <LPP protect="1" purpose="drawing" layer="pcvia4"/>
+    <LPP protect="1" purpose="drawing" layer="pcvia5"/>
+    <LPP protect="1" purpose="drawing" layer="pcvia6"/>
+    <LPP protect="1" purpose="drawing" layer="pcvia7"/>
+    <LPP protect="1" purpose="drawing" layer="ports"/>
+    <LPP protect="1" purpose="drawing" layer="resi"/>
     <LPP visible="0" protect="1" purpose="drawing" layer="silk_screen"/>
+    <LPP protect="1" purpose="drawing" layer="solder_mask"/>
+    <LPP protect="1" purpose="drawing" layer="symbol"/>
+    <LPP protect="1" purpose="drawing" layer="text"/>
 </Lpp_Differences_List>
