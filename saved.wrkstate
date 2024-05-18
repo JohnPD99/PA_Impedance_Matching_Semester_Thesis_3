@@ -1,5 +1,7 @@
 <!DOCTYPE SaveWorkspaceState>
 <SaveWorkspaceState>
-    <Windows/>
+    <Windows>
+        <Schematic lib="PA_Impedance_Matching_Semester_Thesis_3_lib" view="schematic" geom="1,1,0,565,31,1354,1120,1920,1200" x1="572" height="1120" width="1354" y1="-1200" cell="Step16_CPWG_Z_Devboard_optimised"/>
+    </Windows>
     <MainWindowTab tab="1"/>
 </SaveWorkspaceState>

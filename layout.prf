@@ -100,8 +100,8 @@ showFixedLay 1
 undoEditCount 100
 stepRepeatXspace 3.700000
 stepRepeatYspace 3.700000
-stepRepeatNumRows 3
-stepRepeatNumCols 10
+stepRepeatNumRows 1
+stepRepeatNumCols 11
 pinSizeUnits 1
 teeSizeUnits 1
 portSizeUnits 0

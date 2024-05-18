@@ -1,0 +1,21 @@
+
+hpeesofsim (*) 600.shp Apr  3 2024, MINT version 5
+    (64-bit windows built: Wed Apr 03, 2024 19:25:42 +0000)
+
+
+***** Simulation started at Sat May 18 16:45:20 2024
+      Running on host: "TrashLaptop"
+      In Directory: "C:\Users\johnd\Documents\PA_Impedance_Matching_Semester_Thesis_3\data"
+      Process ID: 3032
+
+
+SP SP1[1] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step13_Input_and_Output_Impedance_measurement:schematic>   freq=(100 MHz->3 GHz)
+Warning detected by hpeesofsim during SP analysis `SP1'.
+    COMPONENT `X1.em_data':
+       S-parameter passivity is enforced.
+
+
+
+Resource usage:
+  Total stopwatch time     =     3.58 seconds.
+

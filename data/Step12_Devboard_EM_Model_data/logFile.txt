@@ -1,0 +1,44 @@
+
+hpeesofsim (*) 600.shp Apr  3 2024, MINT version 5
+    (64-bit windows built: Wed Apr 03, 2024 19:25:42 +0000)
+
+
+***** Simulation started at Sat May 18 12:53:39 2024
+      Running on host: "TrashLaptop"
+      In Directory: "C:\Users\johnd\Documents\PA_Impedance_Matching_Semester_Thesis_3\data"
+      Process ID: 19992
+
+Warning detected by hpeesofsim during netlist flattening.
+    Touchstone file parser warning:
+    Line - 3, Column - 16 : invalid character '–' in a comment line.
+    Non-US-ASCII characters violate the Touchstone Specification
+    and may result in file reading failure.
+    File: `C:/Users/johnd/Documents/PA_Impedance_Matching_Semester_Thesis_3/data/TQP9111.s2p'.
+
+
+SP SP1[1] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step12_Devboard_EM_Model:schematic>   freq=(100 MHz->3 GHz)
+Warning detected by hpeesofsim during SP analysis 'SP1'.
+    UserValue(0.000640) < MinRecommendValue(0.000790) OR UserValue > MaxRecommendValue(0.001106) for 'S' in `CPW32'
+
+
+Warning detected by hpeesofsim during SP analysis 'SP1'.
+    UserValue(0.000400) < MinRecommendValue(0.000710) OR UserValue > MaxRecommendValue(0.000994) for 'S' in `CPW25'
+
+
+Warning detected by hpeesofsim during SP analysis 'SP1'.
+    UserValue(0.000400) < MinRecommendValue(0.000710) OR UserValue > MaxRecommendValue(0.000994) for 'S' in `CPW21'
+
+
+Warning detected by hpeesofsim during SP analysis 'SP1'.
+    UserValue(0.000640) < MinRecommendValue(0.000790) OR UserValue > MaxRecommendValue(0.001106) for 'S' in `CPW17'
+
+
+Warning detected by hpeesofsim during SP analysis 'SP1'.
+    UserValue(0.000640) < MinRecommendValue(0.000790) OR UserValue > MaxRecommendValue(0.001106) for 'S' in `CPW3'
+
+
+
+
+Resource usage:
+  Total stopwatch time     =     0.91 seconds.
+

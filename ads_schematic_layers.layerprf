@@ -1,5 +1,5 @@
 <!DOCTYPE DisplayAttributes>
 <Lpp_Differences_List>
-    <LPP protect="1" purpose="drawing" layer="ads_drc_error"/>
-    <LPP protect="1" purpose="drawing" layer="ads_y8"/>
+    <LPP layer="ads_drc_error" protect="1" purpose="drawing"/>
+    <LPP layer="ads_y8" protect="1" purpose="drawing"/>
 </Lpp_Differences_List>
