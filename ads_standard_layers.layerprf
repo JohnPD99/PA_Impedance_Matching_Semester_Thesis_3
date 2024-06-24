@@ -1,36 +1,7 @@
 <!DOCTYPE DisplayAttributes>
 <Lpp_Differences_List>
-    <LPP layer="IC_pin1_marker" purpose="drawing" protect="1"/>
-    <LPP layer="IC_pin_number" purpose="drawing" protect="1"/>
-    <LPP layer="bond" purpose="drawing" protect="1"/>
-    <LPP layer="bound" purpose="drawing" protect="1"/>
-    <LPP layer="case_dimensions" purpose="drawing" protect="1"/>
-    <LPP layer="cond2" purpose="drawing" protect="1"/>
-    <LPP layer="default" purpose="drawing" protect="1"/>
-    <LPP layer="diel2" purpose="drawing" protect="1"/>
-    <LPP layer="diel" purpose="drawing" protect="1"/>
-    <LPP layer="leads" purpose="drawing" protect="1"/>
-    <LPP layer="momentum_err" purpose="drawing" protect="1"/>
-    <LPP layer="packages" purpose="drawing" protect="1"/>
-    <LPP layer="pc1" purpose="drawing" protect="1"/>
-    <LPP layer="pc2" purpose="drawing" protect="1"/>
-    <LPP layer="pc3" purpose="drawing" protect="1"/>
-    <LPP layer="pc4" purpose="drawing" protect="1"/>
-    <LPP layer="pc5" purpose="drawing" protect="1"/>
-    <LPP layer="pc6" purpose="drawing" protect="1"/>
-    <LPP layer="pc7" purpose="drawing" protect="1"/>
-    <LPP layer="pc8" purpose="drawing" protect="1"/>
-    <LPP layer="pcvia1" purpose="drawing" protect="1"/>
-    <LPP layer="pcvia2" purpose="drawing" protect="1"/>
-    <LPP layer="pcvia3" purpose="drawing" protect="1"/>
-    <LPP layer="pcvia4" purpose="drawing" protect="1"/>
-    <LPP layer="pcvia5" purpose="drawing" protect="1"/>
-    <LPP layer="pcvia6" purpose="drawing" protect="1"/>
-    <LPP layer="pcvia7" purpose="drawing" protect="1"/>
-    <LPP layer="ports" purpose="drawing" protect="1"/>
-    <LPP layer="resi" purpose="drawing" protect="1"/>
-    <LPP visible="0" layer="silk_screen" purpose="drawing" protect="1"/>
-    <LPP layer="solder_mask" purpose="drawing" protect="1"/>
-    <LPP layer="symbol" purpose="drawing" protect="1"/>
-    <LPP layer="text" purpose="drawing" protect="1"/>
+    <LPP protect="0" purpose="drawing" layer="hpeesof_region"/>
+    <LPP protect="0" purpose="drawing" layer="momentum_box"/>
+    <LPP protect="0" purpose="drawing" layer="momentum_ref_offset"/>
+    <LPP visible="0" purpose="drawing" layer="silk_screen"/>
 </Lpp_Differences_List>

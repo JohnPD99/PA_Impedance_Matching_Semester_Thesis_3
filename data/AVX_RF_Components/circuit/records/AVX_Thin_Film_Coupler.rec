@@ -1,0 +1,51 @@
+<?xml version="1.0" ?> 
+<COMPONENTS>
+ <COMPONENT>
+  <NAME>AVX_CP0402P</NAME>
+  <DESCRIPTION>LGA Couplers 0402P Tight Coupling Tolerance</DESCRIPTION>
+  <VENDOR>AVX Corp.</VENDOR>
+  <LIBRARY>AVX_RF_Components</LIBRARY>
+  <PLACEMENT>Both</PLACEMENT>
+  <URL>http://www.avx.com/docs/catalogs/cp0402p.pdf</URL>
+ </COMPONENT>
+ <COMPONENT>
+  <NAME>AVX_CP0402A</NAME>
+  <DESCRIPTION>LGA Couplers 0402A</DESCRIPTION>
+  <VENDOR>AVX Corp.</VENDOR>
+  <LIBRARY>AVX_RF_Components</LIBRARY>
+  <PLACEMENT>Both</PLACEMENT>
+  <URL>http://www.avx.com/docs/catalogs/cp0402.pdf</URL>
+ </COMPONENT>
+ <COMPONENT>
+  <NAME>AVX_CP0402W</NAME>
+  <DESCRIPTION>LGA Couplers 0402W</DESCRIPTION>
+  <VENDOR>AVX Corp.</VENDOR>
+  <LIBRARY>AVX_RF_Components</LIBRARY>
+  <PLACEMENT>Both</PLACEMENT>
+  <URL>http://www.avx.com</URL>
+ </COMPONENT>
+ <COMPONENT>
+  <NAME>AVX_CP0603L</NAME>
+  <DESCRIPTION>LGA Couplers CP0603L</DESCRIPTION>
+  <VENDOR>AVX Corp.</VENDOR>
+  <LIBRARY>AVX_RF_Components</LIBRARY>
+  <PLACEMENT>Both</PLACEMENT>
+  <URL>http://www.avx.com/docs/catalogs/cp0603lga.pdf</URL>
+ </COMPONENT>
+ <COMPONENT>
+  <NAME>AVX_CP0603S</NAME>
+  <DESCRIPTION>SMD Couplers CP0603S</DESCRIPTION>
+  <VENDOR>AVX Corp.</VENDOR>
+  <LIBRARY>AVX_RF_Components</LIBRARY>
+  <PLACEMENT>Both</PLACEMENT>
+  <URL>http://www.avx.com/docs/catalogs/cp0603smd.pdf</URL>
+ </COMPONENT>
+ <COMPONENT>
+  <NAME>AVX_CP0805S</NAME>
+  <DESCRIPTION>SMD Couplers CP0805S</DESCRIPTION>
+  <VENDOR>AVX Corp.</VENDOR>
+  <LIBRARY>AVX_RF_Components</LIBRARY>
+  <PLACEMENT>Both</PLACEMENT>
+  <URL>http://www.avx.com/docs/catalogs/cp0805.pdf</URL>
+ </COMPONENT>
+</COMPONENTS>

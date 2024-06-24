@@ -3,10 +3,10 @@ hpeesofsim (*) 600.shp Apr  3 2024, MINT version 5
     (64-bit windows built: Wed Apr 03, 2024 19:25:42 +0000)
 
 
-***** Simulation started at Sat May 18 18:41:14 2024
+***** Simulation started at Mon May 20 11:58:08 2024
       Running on host: "TrashLaptop"
       In Directory: "C:\Users\johnd\Documents\PA_Impedance_Matching_Semester_Thesis_3\data"
-      Process ID: 8084
+      Process ID: 12948
 
 Warning detected by hpeesofsim in topology check during circuit set up.
     Number of nodes with only one device attached (topology corrected): 8
@@ -16,5 +16,5 @@ SP SP1[1] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step14B_Optimised_Output_
 
 
 Resource usage:
-  Total stopwatch time     =     0.89 seconds.
+  Total stopwatch time     =     0.83 seconds.
 

@@ -1,8 +1,8 @@
-License checkout took 0.052 sec
-License checkout took 0.016 sec
+License checkout took 0.017 sec
+License checkout took 0.018 sec
 Momentum MomEngine_64 2024.20.133 (*) built: Mar 27 2024
 Copyright  1992 - 2024 Keysight Technologies
-Simulation started on: Sat May 18 14:57:41 2024
+Simulation started on: Sun Jun 23 11:07:02 2024
 Simulation Mode: uW
 Substrate valid
 
@@ -28,7 +28,7 @@ S-parameter simulation started
 ...reducing mesh
 Automatic selection: direct dense matrix solver
 Using multi-threading (12 threads)
-Matrix size: 1543 (reduced: 1363)
+Matrix size: 1105 (reduced: 820)
 Simulation temperature: 298.15 K
 Adaptive frequency sweep started
 Simulation frequency [1] = 100 MHz
@@ -62,77 +62,7 @@ Simulation frequency [4] = 1.06667 GHz
 ...solving interaction matrix
 .........|.........|.........|.........| 
 ...calculating S-parameters
-Simulation frequency [5] = 261.111 MHz
-...loading Green functions
-...loading interaction matrix
-.........|.........|.........|.........| 
-...solving interaction matrix
-.........|.........|.........|.........| 
-...calculating S-parameters
-Simulation frequency [6] = 932.407 MHz
-...loading Green functions
-...loading interaction matrix
-.........|.........|.........|.........| 
-...solving interaction matrix
-.........|.........|.........|.........| 
-...calculating S-parameters
-Simulation frequency [7] = 2.67778 GHz
-...loading Green functions
-...loading interaction matrix
-.........|.........|.........|.........| 
-...solving interaction matrix
-.........|.........|.........|.........| 
-...calculating S-parameters
-Simulation frequency [8] = 820.525 MHz
-...loading Green functions
-...loading interaction matrix
-.........|.........|.........|.........| 
-...solving interaction matrix
-.........|.........|.........|.........| 
-...calculating S-parameters
-Simulation frequency [9] = 1.55 GHz
-...loading Green functions
-...loading interaction matrix
-.........|.........|.........|.........| 
-...solving interaction matrix
-.........|.........|.........|.........| 
-...calculating S-parameters
-Simulation frequency [10] = 1.63056 GHz
-...loading Green functions
-...loading interaction matrix
-.........|.........|.........|.........| 
-...solving interaction matrix
-.........|.........|.........|.........| 
-...calculating S-parameters
-Simulation frequency [11] = 1.57685 GHz
-...loading Green functions
-...loading interaction matrix
-.........|.........|.........|.........| 
-...solving interaction matrix
-.........|.........|.........|.........| 
-...calculating S-parameters
-Simulation frequency [12] = 1.5858 GHz
-...loading Green functions
-...loading interaction matrix
-.........|.........|.........|.........| 
-...solving interaction matrix
-.........|.........|.........|.........| 
-...calculating S-parameters
-Simulation frequency [13] = 2.78519 GHz
-...loading Green functions
-...loading interaction matrix
-.........|.........|.........|.........| 
-...solving interaction matrix
-.........|.........|.........|.........| 
-...calculating S-parameters
-Simulation frequency [14] = 540.818 MHz
-...loading Green functions
-...loading interaction matrix
-.........|.........|.........|.........| 
-...solving interaction matrix
-.........|.........|.........|.........| 
-...calculating S-parameters
-Simulation frequency [15] = 1.57238 GHz
+Simulation frequency [5] = 583.333 MHz
 ...loading Green functions
 ...loading interaction matrix
 .........|.........|.........|.........| 
@@ -141,5 +71,5 @@ Simulation frequency [15] = 1.57238 GHz
 ...calculating S-parameters
 Adaptive: 100.0 % of frequency range covered
 S-parameter simulation finished
-Simulation finished on: Sat May 18 14:57:58 2024
+Simulation finished on: Sun Jun 23 11:07:05 2024
 The simulation results have been saved in dataset "Step12_Devboard_EM_Model_MomUW".

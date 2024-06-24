@@ -1,0 +1,51 @@
+<?xml version="1.0" ?> 
+<COMPONENTS>
+ <COMPONENT>
+  <NAME>AVX_C1005</NAME>
+  <DESCRIPTION>Capacitors Size 01005</DESCRIPTION>
+  <VENDOR>AVX Corp.</VENDOR>
+  <LIBRARY>AVX_RF_Components</LIBRARY>
+  <PLACEMENT>Both</PLACEMENT>
+  <URL>http://www.avx.com/docs/Catalogs/accuf-p.pdf</URL>
+ </COMPONENT>
+ <COMPONENT>
+  <NAME>AVX_C0201</NAME>
+  <DESCRIPTION>Capacitors Size 0201</DESCRIPTION>
+  <VENDOR>AVX Corp.</VENDOR>
+  <LIBRARY>AVX_RF_Components</LIBRARY>
+  <PLACEMENT>Both</PLACEMENT>
+  <URL>http://www.avx.com/docs/Catalogs/accuf-p.pdf</URL>
+ </COMPONENT>
+ <COMPONENT>
+  <NAME>AVX_C0402</NAME>
+  <DESCRIPTION>Capacitors Size 0402</DESCRIPTION>
+  <VENDOR>AVX Corp.</VENDOR>
+  <LIBRARY>AVX_RF_Components</LIBRARY>
+  <PLACEMENT>Both</PLACEMENT>
+  <URL>http://www.avx.com/docs/Catalogs/accuf-p.pdf</URL>
+ </COMPONENT>
+ <COMPONENT>
+  <NAME>AVX_C0603</NAME>
+  <DESCRIPTION>Capacitors Size 0603</DESCRIPTION>
+  <VENDOR>AVX Corp.</VENDOR>
+  <LIBRARY>AVX_RF_Components</LIBRARY>
+  <PLACEMENT>Both</PLACEMENT>
+  <URL>http://www.avx.com/docs/Catalogs/accuf-p.pdf</URL>
+ </COMPONENT>
+ <COMPONENT>
+  <NAME>AVX_C0805</NAME>
+  <DESCRIPTION>Capacitors Size 0805</DESCRIPTION>
+  <VENDOR>AVX Corp.</VENDOR>
+  <LIBRARY>AVX_RF_Components</LIBRARY>
+  <PLACEMENT>Both</PLACEMENT>
+  <URL>http://www.avx.com/docs/Catalogs/accuf-p.pdf</URL>
+ </COMPONENT>
+ <COMPONENT>
+  <NAME>AVX_C1210</NAME>
+  <DESCRIPTION>Capacitors Size 1210</DESCRIPTION>
+  <VENDOR>AVX Corp.</VENDOR>
+  <LIBRARY>AVX_RF_Components</LIBRARY>
+  <PLACEMENT>Both</PLACEMENT>
+  <URL>http://www.avx.com/docs/Catalogs/accuf-p.pdf</URL>
+ </COMPONENT>
+</COMPONENTS>

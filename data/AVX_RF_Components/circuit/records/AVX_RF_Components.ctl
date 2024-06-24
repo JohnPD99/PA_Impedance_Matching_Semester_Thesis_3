@@ -1,0 +1,28 @@
+<?xml version="1.0" ?> 
+<LIBRARIES> 
+ <LIBRARY> 
+  <NAME>AVX_RF_Components</NAME> 
+  <CATEGORY>DL</CATEGORY> 
+  <RECORD_FILES>AVX_RF_Components.rec</RECORD_FILES> 
+  <SUBLIBRARY> 
+   <NAME>AVX_Thin_Film_Capacitor</NAME> 
+   <RECORD_FILES>AVX_Thin_Film_Capacitor.rec</RECORD_FILES> 
+  </SUBLIBRARY> 
+  <SUBLIBRARY> 
+   <NAME>AVX_Thin_Film_Inductor</NAME> 
+   <RECORD_FILES>AVX_Thin_Film_Inductor.rec</RECORD_FILES> 
+  </SUBLIBRARY> 
+  <SUBLIBRARY> 
+   <NAME>AVX_Thin_Film_Coupler</NAME> 
+   <RECORD_FILES>AVX_Thin_Film_Coupler.rec</RECORD_FILES> 
+  </SUBLIBRARY> 
+  <SUBLIBRARY> 
+   <NAME>AVX_Thin_Film_3dB_90_degree_coupler</NAME> 
+   <RECORD_FILES>AVX_Thin_Film_3dB_90_degree_coupler.rec</RECORD_FILES> 
+  </SUBLIBRARY> 
+  <SUBLIBRARY> 
+   <NAME>AVX_Thin_Film_Low_Pass_Filter</NAME> 
+   <RECORD_FILES>AVX_Thin_Film_Low_Pass_Filter.rec</RECORD_FILES> 
+  </SUBLIBRARY> 
+ </LIBRARY> 
+</LIBRARIES>

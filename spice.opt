@@ -1,0 +1,8 @@
+ConnectionMethod = 2
+SpiceDialect = 6
+ElementReplacementTable
+IgnoreFirstLine = true
+SuppressNameMapping = false
+ComponentName = spice1
+NumberOfPins = 0
+DirectoryToStoreNetList = C:\Users\johnd\Documents\PA_Impedance_Matching_Semester_Thesis_3

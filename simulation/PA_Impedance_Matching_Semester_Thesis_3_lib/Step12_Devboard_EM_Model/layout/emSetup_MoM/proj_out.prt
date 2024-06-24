@@ -58,14 +58,6 @@
       </impedance>
     </port>
     <port id="8">
-      <name>P8</name>
-      <plus_pin>P8</plus_pin>
-      <impedance>
-        <real>50</real>
-        <imag>0</imag>
-      </impedance>
-    </port>
-    <port id="9">
       <name>P9</name>
       <plus_pin>P9</plus_pin>
       <impedance>
@@ -73,7 +65,7 @@
         <imag>0</imag>
       </impedance>
     </port>
-    <port id="10">
+    <port id="9">
       <name>P10</name>
       <plus_pin>P10</plus_pin>
       <impedance>
@@ -81,7 +73,7 @@
         <imag>0</imag>
       </impedance>
     </port>
-    <port id="11">
+    <port id="10">
       <name>P11</name>
       <plus_pin>P11</plus_pin>
       <impedance>
@@ -89,15 +81,7 @@
         <imag>0</imag>
       </impedance>
     </port>
-    <port id="12">
-      <name>P12</name>
-      <plus_pin>P12</plus_pin>
-      <impedance>
-        <real>50</real>
-        <imag>0</imag>
-      </impedance>
-    </port>
-    <port id="13">
+    <port id="11">
       <name>P13</name>
       <plus_pin>P13</plus_pin>
       <impedance>
@@ -105,7 +89,7 @@
         <imag>0</imag>
       </impedance>
     </port>
-    <port id="14">
+    <port id="12">
       <name>P14</name>
       <plus_pin>P14</plus_pin>
       <impedance>
@@ -113,7 +97,7 @@
         <imag>0</imag>
       </impedance>
     </port>
-    <port id="15">
+    <port id="13">
       <name>P15</name>
       <plus_pin>P15</plus_pin>
       <impedance>
@@ -121,15 +105,7 @@
         <imag>0</imag>
       </impedance>
     </port>
-    <port id="16">
-      <name>P16</name>
-      <plus_pin>P16</plus_pin>
-      <impedance>
-        <real>50</real>
-        <imag>0</imag>
-      </impedance>
-    </port>
-    <port id="17">
+    <port id="14">
       <name>P17</name>
       <plus_pin>P17</plus_pin>
       <impedance>
@@ -137,7 +113,7 @@
         <imag>0</imag>
       </impedance>
     </port>
-    <port id="18">
+    <port id="15">
       <name>P18</name>
       <plus_pin>P18</plus_pin>
       <impedance>
@@ -145,7 +121,7 @@
         <imag>0</imag>
       </impedance>
     </port>
-    <port id="19">
+    <port id="16">
       <name>P19</name>
       <plus_pin>P19</plus_pin>
       <impedance>
@@ -153,7 +129,7 @@
         <imag>0</imag>
       </impedance>
     </port>
-    <port id="20">
+    <port id="17">
       <name>P20</name>
       <plus_pin>P20</plus_pin>
       <impedance>

@@ -3,10 +3,10 @@ hpeesofsim (*) 600.shp Apr  3 2024, MINT version 5
     (64-bit windows built: Wed Apr 03, 2024 19:25:42 +0000)
 
 
-***** Simulation started at Fri May 17 22:50:55 2024
+***** Simulation started at Sun Jun 23 14:29:15 2024
       Running on host: "TrashLaptop"
       In Directory: "C:\Users\johnd\Documents\PA_Impedance_Matching_Semester_Thesis_3\data"
-      Process ID: 12504
+      Process ID: 6968
 
 Warning detected by hpeesofsim during netlist flattening.
     Touchstone file parser warning:
@@ -16,23 +16,9 @@ Warning detected by hpeesofsim during netlist flattening.
     File: `C:/Users/johnd/Documents/PA_Impedance_Matching_Semester_Thesis_3/data/TQP9111.s2p'.
 
 
-OPTIM Optim1[1] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step9_S21_optimised:schematic>  optIter=(0->30)
+SP SP1[1] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step9_S21_optimised:schematic>   freq=(100 MHz->3 GHz)
 
-SP Optim1[1].SP1[0] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step9_S21_optimised:schematic>  optIter=0  freq=(100 MHz->3 GHz)
-
-Iteration/Trial #0:
-  CurrentEF: 7.09318557262444e-05
-  Optimization variables:
-    X1.l1 = 1.80222e-03
-    X1.l2 = 7.26474e-03
-    X1.l3 = 728.173e-06
-    X1.l4 = 111.682e-06
-    X1.l5 = 2.21371e-03
-    X1.l6 = 170.716e-06
-    X1.l7 = 579.897e-06
-    X1.l8 = 6.08446e-03
-    X1.l9 = 4.08535e-03
 
 Resource usage:
-  Total stopwatch time     =   244.49 seconds.
+  Total stopwatch time     =     1.04 seconds.
 

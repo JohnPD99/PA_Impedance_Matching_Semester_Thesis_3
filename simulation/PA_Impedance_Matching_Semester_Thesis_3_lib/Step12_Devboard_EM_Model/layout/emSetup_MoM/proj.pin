@@ -9,7 +9,7 @@
         <layer>1</layer>
         <purpose>-1</purpose>
         <point>
-          <x>-0.0055</x>
+          <x>-0.0025</x>
           <y>0</y>
         </point>
       </shape>
@@ -23,7 +23,7 @@
         <layer>1</layer>
         <purpose>-1</purpose>
         <point>
-          <x>0.01663</x>
+          <x>0.02488</x>
           <y>0</y>
         </point>
       </shape>
@@ -37,21 +37,7 @@
         <layer>1</layer>
         <purpose>-1</purpose>
         <point>
-          <x>0.01738</x>
-          <y>0</y>
-        </point>
-      </shape>
-    </layout>
-  </pin>
-  <pin>
-    <name>P12</name>
-    <net>P12</net>
-    <layout>
-      <shape>
-        <layer>1</layer>
-        <purpose>-1</purpose>
-        <point>
-          <x>0.02188</x>
+          <x>0.02588</x>
           <y>0</y>
         </point>
       </shape>
@@ -65,22 +51,22 @@
         <layer>1</layer>
         <purpose>-1</purpose>
         <point>
-          <x>0.02288</x>
-          <y>-0.0003</y>
+          <x>0.02628</x>
+          <y>0</y>
         </point>
       </shape>
     </layout>
   </pin>
   <pin>
     <name>P14</name>
-    <net>gnd!</net>
+    <net>P14</net>
     <layout>
       <shape>
         <layer>1</layer>
         <purpose>-1</purpose>
         <point>
-          <x>0.02288</x>
-          <y>-0.0013</y>
+          <x>0.02668</x>
+          <y>0</y>
         </point>
       </shape>
     </layout>
@@ -93,21 +79,7 @@
         <layer>1</layer>
         <purpose>-1</purpose>
         <point>
-          <x>0.02328</x>
-          <y>0</y>
-        </point>
-      </shape>
-    </layout>
-  </pin>
-  <pin>
-    <name>P16</name>
-    <net>P16</net>
-    <layout>
-      <shape>
-        <layer>1</layer>
-        <purpose>-1</purpose>
-        <point>
-          <x>0.02368</x>
+          <x>0.02708</x>
           <y>0</y>
         </point>
       </shape>
@@ -121,22 +93,22 @@
         <layer>1</layer>
         <purpose>-1</purpose>
         <point>
-          <x>0.02408</x>
-          <y>-0.0003</y>
+          <x>0.01923</x>
+          <y>0</y>
         </point>
       </shape>
     </layout>
   </pin>
   <pin>
     <name>P18</name>
-    <net>gnd!</net>
+    <net>P18</net>
     <layout>
       <shape>
         <layer>1</layer>
         <purpose>-1</purpose>
         <point>
-          <x>0.02408</x>
-          <y>-0.0013</y>
+          <x>0.01963</x>
+          <y>0</y>
         </point>
       </shape>
     </layout>
@@ -149,7 +121,7 @@
         <layer>1</layer>
         <purpose>-1</purpose>
         <point>
-          <x>0.03681</x>
+          <x>0.03981</x>
           <y>0</y>
         </point>
       </shape>
@@ -163,7 +135,7 @@
         <layer>1</layer>
         <purpose>-1</purpose>
         <point>
-          <x>0.04439</x>
+          <x>0.04739</x>
           <y>0</y>
         </point>
       </shape>
@@ -177,7 +149,7 @@
         <layer>1</layer>
         <purpose>-1</purpose>
         <point>
-          <x>0.03841</x>
+          <x>0.04141</x>
           <y>0</y>
         </point>
       </shape>
@@ -191,7 +163,7 @@
         <layer>1</layer>
         <purpose>-1</purpose>
         <point>
-          <x>0.00048</x>
+          <x>0.00348</x>
           <y>0</y>
         </point>
       </shape>
@@ -205,7 +177,7 @@
         <layer>1</layer>
         <purpose>-1</purpose>
         <point>
-          <x>0.00208</x>
+          <x>0.00508</x>
           <y>0</y>
         </point>
       </shape>
@@ -219,7 +191,7 @@
         <layer>1</layer>
         <purpose>-1</purpose>
         <point>
-          <x>0.00987</x>
+          <x>0.01287</x>
           <y>0</y>
         </point>
       </shape>
@@ -233,7 +205,7 @@
         <layer>1</layer>
         <purpose>-1</purpose>
         <point>
-          <x>0.01147</x>
+          <x>0.01447</x>
           <y>0</y>
         </point>
       </shape>
@@ -247,22 +219,8 @@
         <layer>1</layer>
         <purpose>-1</purpose>
         <point>
-          <x>0.01583</x>
-          <y>-0.0003</y>
-        </point>
-      </shape>
-    </layout>
-  </pin>
-  <pin>
-    <name>P8</name>
-    <net>gnd!</net>
-    <layout>
-      <shape>
-        <layer>1</layer>
-        <purpose>-1</purpose>
-        <point>
-          <x>0.01583</x>
-          <y>-0.0013</y>
+          <x>0.01883</x>
+          <y>0</y>
         </point>
       </shape>
     </layout>
@@ -275,7 +233,7 @@
         <layer>1</layer>
         <purpose>-1</purpose>
         <point>
-          <x>0.01623</x>
+          <x>0.02038</x>
           <y>0</y>
         </point>
       </shape>

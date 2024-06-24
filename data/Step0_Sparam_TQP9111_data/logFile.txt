@@ -3,22 +3,15 @@ hpeesofsim (*) 600.shp Apr  3 2024, MINT version 5
     (64-bit windows built: Wed Apr 03, 2024 19:25:42 +0000)
 
 
-***** Simulation started at Fri May 17 17:19:36 2024
+***** Simulation started at Fri Jun 21 13:47:34 2024
       Running on host: "TrashLaptop"
       In Directory: "C:\Users\johnd\Documents\PA_Impedance_Matching_Semester_Thesis_3\data"
-      Process ID: 6960
-
-Warning detected by hpeesofsim during netlist flattening.
-    Touchstone file parser warning:
-    Line - 3, Column - 16 : invalid character '–' in a comment line.
-    Non-US-ASCII characters violate the Touchstone Specification
-    and may result in file reading failure.
-    File: `C:/Users/johnd/Documents/PA_Impedance_Matching_Semester_Thesis_3/data/TQP9111.s2p'.
+      Process ID: 16356
 
 
 SP SP1[1] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step0_Sparam_TQP9111:schematic>   freq=(100 MHz->3 GHz)
 
 
 Resource usage:
-  Total stopwatch time     =     0.62 seconds.
+  Total stopwatch time     =     0.73 seconds.
 

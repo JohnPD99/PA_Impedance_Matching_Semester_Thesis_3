@@ -1,0 +1,17 @@
+
+hpeesofsim (*) 600.shp Apr  3 2024, MINT version 5
+    (64-bit windows built: Wed Apr 03, 2024 19:25:42 +0000)
+
+
+***** Simulation started at Sat Jun 22 13:03:05 2024
+      Running on host: "TrashLaptop"
+      In Directory: "C:\Users\johnd\Documents\PA_Impedance_Matching_Semester_Thesis_3\data"
+      Process ID: 5988
+
+
+SP SP1[1] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step17A_Optimised_Input_Output_Matching_basedonDevboardImpedance_FInalTest_CPWG_v1:schematic>   freq=(100 MHz->3 GHz)
+
+
+Resource usage:
+  Total stopwatch time     =     0.89 seconds.
+

@@ -1,0 +1,22 @@
+
+hpeesofsim (*) 600.shp Apr  3 2024, MINT version 5
+    (64-bit windows built: Wed Apr 03, 2024 19:25:42 +0000)
+
+
+***** Simulation started at Sun Jun 23 23:36:23 2024
+      Running on host: "TrashLaptop"
+      In Directory: "C:\Users\johnd\Documents\PA_Impedance_Matching_Semester_Thesis_3\data"
+      Process ID: 1656
+
+
+SP SP1[1] <PA_Impedance_Matching_Semester_Thesis_3_lib:Measurements_visualiser:schematic>   freq=(1.8 GHz->3 GHz)
+Warning detected by hpeesofsim during SP analysis `SP1'.
+    Data in the Touchstone file `C:/Users/johnd/Downloads/PA_SoftPlotNEU.s2p'
+    does not cover the requested value of `freq'.
+    Therefore, the required data was obtained by extrapolation.
+
+
+
+Resource usage:
+  Total stopwatch time     =     0.68 seconds.
+

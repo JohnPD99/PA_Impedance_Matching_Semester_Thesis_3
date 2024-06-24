@@ -1,0 +1,24 @@
+
+hpeesofsim (*) 600.shp Apr  3 2024, MINT version 5
+    (64-bit windows built: Wed Apr 03, 2024 19:25:42 +0000)
+
+
+***** Simulation started at Thu Jun  6 23:22:42 2024
+      Running on host: "TrashLaptop"
+      In Directory: "C:\Users\johnd\Documents\PA_Impedance_Matching_Semester_Thesis_3\data"
+      Process ID: 18860
+
+
+2 spare nodes and 2 spare devices are removed.
+The details can be found in file 'C:\Users\johnd\Documents\PA_Impedance_Matching_Semester_Thesis_3\data\Step18_Microstripline_Simulation_data\spare_removal.txt'.
+
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with only one device attached (topology corrected): 2
+
+
+SP SP1[1] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step18_Microstripline_Simulation:schematic>   freq=(0 Hz->3 GHz)
+
+
+Resource usage:
+  Total stopwatch time     =     0.64 seconds.
+

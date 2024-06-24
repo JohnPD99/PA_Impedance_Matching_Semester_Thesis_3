@@ -3,10 +3,17 @@ hpeesofsim (*) 600.shp Apr  3 2024, MINT version 5
     (64-bit windows built: Wed Apr 03, 2024 19:25:42 +0000)
 
 
-***** Simulation started at Sat May 18 16:45:20 2024
+***** Simulation started at Sun Jun 23 11:08:54 2024
       Running on host: "TrashLaptop"
       In Directory: "C:\Users\johnd\Documents\PA_Impedance_Matching_Semester_Thesis_3\data"
-      Process ID: 3032
+      Process ID: 19012
+
+Warning detected by hpeesofsim during netlist flattening.
+    Touchstone file parser warning:
+    Line - 3, Column - 16 : invalid character '–' in a comment line.
+    Non-US-ASCII characters violate the Touchstone Specification
+    and may result in file reading failure.
+    File: `C:/Users/johnd/Documents/PA_Impedance_Matching_Semester_Thesis_3/data/TQP9111.s2p'.
 
 
 SP SP1[1] <PA_Impedance_Matching_Semester_Thesis_3_lib:Step13_Input_and_Output_Impedance_measurement:schematic>   freq=(100 MHz->3 GHz)
@@ -15,7 +22,11 @@ Warning detected by hpeesofsim during SP analysis `SP1'.
        S-parameter passivity is enforced.
 
 
+Warning detected by hpeesofsim during circuit set up.
+    Evaluation failed for ` Zin2=zin(S33,PortZ3)':  "Zin2":
+      Operation "( ) leaf access", matrix row index: 3 is outside the range: 1 <= index <= 2.
+
 
 Resource usage:
-  Total stopwatch time     =     3.58 seconds.
+  Total stopwatch time     =     1.55 seconds.
 

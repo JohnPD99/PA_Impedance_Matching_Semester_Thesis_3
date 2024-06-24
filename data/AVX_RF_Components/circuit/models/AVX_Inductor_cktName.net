@@ -1,0 +1,89 @@
+define AVX_L0201(Pin1 Pin2 )
+parameters PartNumber=1 
+#uselib "ckt" , "DataFileList"
+DataFileList:DataFileList1 _List=list( \ 
+"L0201SEr33.s2p", \ 
+"L0201SEr39.s2p", \ 
+"L0201SEr47.s2p", \ 
+"L0201SEr56.s2p", \ 
+"L0201SEr68.s2p", \ 
+"L0201SEr82.s2p", \ 
+"L0201SE1r0.s2p", \ 
+"L0201SE1r2.s2p", \
+"L0201SE1r5.s2p", \
+"L0201SE1r8.s2p", \
+"L0201SE2r2.s2p", \
+"L0201SE2r7.s2p", \
+"L0201SE3r3.s2p") Index=PartNumber+1
+#uselib "ckt" , "S2P"
+S2P:SNP1  Pin1 Pin2 0 File=DataFileList1.FileName Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+end AVX_L0201
+
+define AVX_L0402(Pin1 Pin2 )
+parameters PartNumber=1 
+#uselib "ckt" , "DataFileList"
+DataFileList:DataFileList1 _List=list( \ 
+"L0402SEr56.s2p", \ 
+"L0402SEr68.s2p", \ 
+"L0402SEr82.s2p", \ 
+"L0402SE1r0.s2p", \ 
+"L0402SE1r2.s2p", \
+"L0402SE1r5.s2p", \
+"L0402SE1r8.s2p", \
+"L0402SE2r2.s2p", \
+"L0402SE2r7.s2p", \
+"L0402SE3r3.s2p", \
+"L0402SE3r9.s2p", \
+"L0402SE4r7.s2p", \
+"L0402SE5r6.s2p", \
+"L0402SE6r8.s2p") Index=PartNumber+1
+#uselib "ckt" , "S2P"
+S2P:SNP1  Pin1 Pin2 0 File=DataFileList1.FileName Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+end AVX_L0402
+
+define AVX_L0603(Pin1 Pin2 )
+parameters PartNumber=1 
+#uselib "ckt" , "DataFileList"
+DataFileList:DataFileList1 _List=list( \ 
+"L0603SE1r2.s2p", \
+"L0603SE1r5.s2p", \
+"L0603SE1r8.s2p", \
+"L0603SE2r2.s2p", \
+"L0603SE2r7.s2p", \
+"L0603SE3r3.s2p", \
+"L0603SE3r9.s2p", \
+"L0603SE4r7.s2p", \
+"L0603SE5r6.s2p", \
+"L0603SE6r8.s2p", \
+"L0603SE8r2.s2p", \
+"L0603SE100.s2p", \
+"L0603SE120.s2p", \
+"L0603SE150.s2p") Index=PartNumber+1
+#uselib "ckt" , "S2P"
+S2P:SNP1  Pin1 Pin2 0 File=DataFileList1.FileName Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+end AVX_L0603
+
+define AVX_L0805(Pin1 Pin2 )
+parameters PartNumber=1 
+#uselib "ckt" , "DataFileList"
+DataFileList:DataFileList1 _List=list( \ 
+"L0805SE1r2.s2p", \
+"L0805SE1r5.s2p", \
+"L0805SE1r8.s2p", \
+"L0805SE2r2.s2p", \
+"L0805SE2r7.s2p", \
+"L0805SE3r3.s2p", \
+"L0805SE3r9.s2p", \
+"L0805SE4r7.s2p", \
+"L0805SE5r6.s2p", \
+"L0805SE6r5.s2p", \
+"L0805SE6r8.s2p", \
+"L0805SE8r2.s2p", \
+"L0805SE100.s2p", \
+"L0805SE120.s2p", \
+"L0805SE150.s2p", \
+"L0805SE180.s2p", \
+"L0805SE220.s2p") Index=PartNumber+1
+#uselib "ckt" , "S2P"
+S2P:SNP1  Pin1 Pin2 0 File=DataFileList1.FileName Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+end AVX_L0805

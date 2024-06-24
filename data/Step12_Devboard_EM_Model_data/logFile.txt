@@ -3,10 +3,10 @@ hpeesofsim (*) 600.shp Apr  3 2024, MINT version 5
     (64-bit windows built: Wed Apr 03, 2024 19:25:42 +0000)
 
 
-***** Simulation started at Sat May 18 12:53:39 2024
+***** Simulation started at Sun Jun 23 11:01:23 2024
       Running on host: "TrashLaptop"
       In Directory: "C:\Users\johnd\Documents\PA_Impedance_Matching_Semester_Thesis_3\data"
-      Process ID: 19992
+      Process ID: 3624
 
 Warning detected by hpeesofsim during netlist flattening.
     Touchstone file parser warning:
@@ -40,5 +40,5 @@ Warning detected by hpeesofsim during SP analysis 'SP1'.
 
 
 Resource usage:
-  Total stopwatch time     =     0.91 seconds.
+  Total stopwatch time     =     4.13 seconds.
 

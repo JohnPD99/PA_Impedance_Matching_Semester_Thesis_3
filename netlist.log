@@ -1,30 +1,11 @@
-; Top Design: "PA_Impedance_Matching_Semester_Thesis_3_lib:Step17A_Optimised_Input_Output_Matching_basedonDevboardImpedance_FInalTest_CPWG:schematic"
+; Top Design: "PA_Impedance_Matching_Semester_Thesis_3_lib:Measurements_visualiser:schematic"
 ; Netlisted using Hierarchy Policy: "Standard"
 
-Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="PA_Impedance_Matching_Semester_Thesis_3_lib:Step17A_Optimised_Input_Output_Matching_basedonDevboardImpedance_FInalTest_CPWG:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
-; Library Name: PA_Impedance_Matching_Semester_Thesis_3_lib
-; Cell Name: Step16_CPWG_Z_Devboard_optimised
-; View Name: emModel
-define Step16_CPWG_Z_Devboard_optimised ( P1  P2  P3  P4  P5  P6  P7  P8  P9  P10  P11  P12  P13  P14  P15  P16  P17  P18  ref=0 ) 
-;parameters 
-; MomCmpt model has node 0 as implicit reference. Ref node will be ignored and assumed to be grounded!
-em_data_name="PA_Impedance_Matching_Semester_Thesis_3_lib:Step16_CPWG_Z_Devboard_optimised:emModel"
-MomCmpt:em_data  P1 P2 P3 P4 P5 P6 P7 P8 P9 P10 \
-   P11 P12 P13 P14 P15 P16 P17 P18 \
-    name=em_data_name \
-    paramFile="" \
-    modelFile="C:/Users/johnd/Documents/PA_Impedance_Matching_Semester_Thesis_3/PA_Impedance_Matching_Semester_Thesis_3_lib/%Step16_%C%P%W%G_%Z_%Devboard_optimised/em%Model/model.ndx" \
-    ModelReuse=1 \
-    ModelType="MOMMW" \
-    ExtrapolationMode="linear" \
-    EnforcePassivity=-1
-end Step16_CPWG_Z_Devboard_optimised
-
-Step16_CPWG_Z_Devboard_optimised:X1  N__0 N__10 N__9 N__6 N__22 0 N__17 N__7 N__19 N__8 N__5 0 N__2 N__1 N__20 0 N__14 N__21 
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="PA_Impedance_Matching_Semester_Thesis_3_lib:Measurements_visualiser:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
 S_Param:SP1 CalcS=yes CalcY=no CalcZ=no GroupDelayAperture=1e-4 FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=no SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 SPSS_WSP=yes \
 SweepVar="freq" SweepPlan="SP1_stim" OutputPlan="SP1_Output" 
 
-SweepPlan: SP1_stim Start=0.1 GHz Stop=3 GHz Step=1 MHz 
+SweepPlan: SP1_stim Start=1.8 GHz Stop=3 GHz Step=1.0 MHz 
 
 OutputPlan:SP1_Output \
       Type="Output" \
@@ -35,22 +16,7 @@ OutputPlan:SP1_Output \
 
 #load "python","LinearCollapse"
 Component Module="LinearCollapse" Type="ModelExtractor" NetworkRepresentation=2
-Port:TermG1  N__19 0 Num=1 Z=50 Ohm Noise=yes 
-Port:TermG2  N__0 0 Num=2 Z=50 Ohm Noise=yes 
+Port:TermG1  N__0 0 Num=1 Z=50 Ohm Noise=yes 
+Port:TermG2  N__1 0 Num=2 Z=50 Ohm Noise=yes 
 #uselib "ckt" , "S2P"
-S2P:ATC600L_2P2  N__22 0 0 File="C:\Users\johnd\Documents\PA_Impedance_Matching_Semester_Thesis_3\data\600L_S2P_Horz\600L2R2.S2P" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
-#uselib "ckt" , "S2P"
-S2P:ATC600L_4P7  N__9 N__6 0 File="C:\Users\johnd\Documents\PA_Impedance_Matching_Semester_Thesis_3\data\600L_S2P_Horz\600L4R7.S2P" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
-R:R2  N__17 N__7 R=1.2 Ohm Noise=yes 
-aele Zin1=zin(S11,PortZ1);
-#uselib "ckt" , "S2P"
-S2P:ATC600L_3P0  N__5 0 0 File="C:\Users\johnd\Documents\PA_Impedance_Matching_Semester_Thesis_3\data\600L_S2P_Horz\600L3R0.S2P" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
-#uselib "ckt" , "S2P"
-S2P:ATC600S_100P0  N__14 N__21 0 File="C:\Users\johnd\Documents\PA_Impedance_Matching_Semester_Thesis_3\data\600S_S2P_Horiz\600S101.S2P" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
-#uselib "ckt" , "S2P"
-S2P:MURATA_1N  N__2 N__1 0 File="C:\Users\johnd\Documents\PA_Impedance_Matching_Semester_Thesis_3\data\LQG15hn\LQG15HN1N0B02.s2p" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
-#uselib "ckt" , "S2P"
-S2P:ATC600SL_1P6  N__20 0 0 File="C:\Users\johnd\Documents\PA_Impedance_Matching_Semester_Thesis_3\data\600S_S2P_Horiz\600S1R6.S2P" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
-Port:TermG4  N__10 0 Num=4 Z=50 Ohm Noise=yes 
-Port:TermG3  N__8 0 Num=3 Z=50 Ohm Noise=yes 
-aele Zin2=zin(S33,PortZ3);
+S2P:SNP1  N__0 N__1 0 File="C:\Users\johnd\Downloads\PA_SoftPlotNEU.s2p" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 

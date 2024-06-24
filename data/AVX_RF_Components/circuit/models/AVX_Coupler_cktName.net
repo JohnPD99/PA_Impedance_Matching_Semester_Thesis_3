@@ -1,0 +1,162 @@
+define AVX_CP0302A(Pin1 Pin2 Pin3 Pin4)
+parameters PartNumber=1
+#uselib "ckt" , "DataFileList"
+DataFileList:DataFileList1 _List=list( \ 
+"CP0302AE.S4P") Index=PartNumber+1
+#uselib "ckt" , "S4P"
+S4P:SNP1  Pin1 Pin2 Pin3 Pin4 0 File=DataFileList1.FileName Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+end AVX_CP0302A
+
+/* define AVX_CP0402Q(Pin1 Pin2 Pin3 Pin4)
+parameters PartNumber=1
+#uselib "ckt" , "DataFileList"
+DataFileList:DataFileList1 _List=list( \ 
+"CP0402QE.S4P") Index=PartNumber+1
+#uselib "ckt" , "S4P"
+S4P:SNP1  Pin1 Pin2 Pin3 Pin4 0 File=DataFileList1.FileName Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+end AVX_CP0402Q */
+
+define AVX_CP0402P(Pin1 Pin2 Pin3 Pin4)
+parameters PartNumber=1
+#uselib "ckt" , "DataFileList"
+DataFileList:DataFileList1 _List=list( \ 
+"CP0402PA.S4P", \ 
+"CP0402PB.S4P", \
+"CP0402PE.S4P", \ 
+"CP0402PJ.S4P") Index=PartNumber+1
+#uselib "ckt" , "S4P"
+S4P:SNP1  Pin1 Pin2 Pin3 Pin4 0 File=DataFileList1.FileName Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+end AVX_CP0402P
+
+define AVX_CP0402A(Pin1 Pin2 Pin3 Pin4)
+parameters PartNumber=1
+#uselib "ckt" , "DataFileList"
+DataFileList:DataFileList1 _List=list( \ 
+"CP0402AA.S4P", \ 
+"CP0402AB.S4P", \ 
+"CP0402AC.S4P", \
+"CP0402AD.S4P", \
+"CP0402AE.S4P", \
+"CP0402AF.S4P", \
+"CP0402AG.S4P") Index=PartNumber+1
+#uselib "ckt" , "S4P"
+S4P:SNP1  Pin1 Pin2 Pin3 Pin4 0 File=DataFileList1.FileName Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+end AVX_CP0402A
+
+define AVX_CP0402W(Pin1 Pin2 Pin3)
+parameters PartNumber=1
+#uselib "ckt" , "DataFileList"
+DataFileList:DataFileList1 _List=list( \ 
+"CP0402WF.S3P") Index=PartNumber+1
+#uselib "ckt" , "S3P"
+S3P:SNP1  Pin1 Pin2 Pin3 0 File=DataFileList1.FileName Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+end AVX_CP0402W
+
+/* define AVX_CP0603Q(Pin1 Pin2 Pin3 Pin4)
+parameters PartNumber=1
+#uselib "ckt" , "DataFileList"
+DataFileList:DataFileList1 _List=list( \ 
+"CP0603QE.S4P") Index=PartNumber+1
+#uselib "ckt" , "S4P"
+S4P:SNP1  Pin1 Pin2 Pin3 Pin4 0 File=DataFileList1.FileName Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+end AVX_CP0603Q */
+
+define AVX_CP0603L(Pin1 Pin2 Pin3 Pin4)
+parameters PartNumber=1
+#uselib "ckt" , "DataFileList"
+DataFileList:DataFileList1 _List=list( \ 
+"CP0603AAN.S4P", \ 
+"CP0603ABN.S4P", \ 
+"CP0603ACN.S4P", \
+"CP0603ADN.S4P", \
+"CP0603AEN.S4P", \
+"CP0603AFN.S4P", \
+"CP0603AGN.S4P", \
+"CP0603AHN.S4P", \
+"CP0603AKN.S4P", \
+"CP0603AMN.S4P", \
+"CP0603ALN.S4P") Index=PartNumber+1
+#uselib "ckt" , "S4P"
+S4P:SNP1  Pin1 Pin2 Pin3 Pin4 0 File=DataFileList1.FileName Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+end AVX_CP0603L
+
+define AVX_CP0603S(Pin1 Pin2 Pin3 Pin4)
+parameters PartNumber=1
+#uselib "ckt" , "DataFileList"
+DataFileList:DataFileList1 _List=list( \ 
+"CP0603AAS.S4P", \ 
+"CP0603ABS.S4P", \ 
+"CP0603ACS.S4P", \
+"CP0603ADS.S4P", \
+"CP0603BAS.S4P", \
+"CP0603BBS.S4P", \
+"CP0603BCS.S4P", \
+"CP0603DAS.S4P", \
+"CP0603DBS.S4P") Index=PartNumber+1
+#uselib "ckt" , "S4P"
+S4P:SNP1  Pin1 Pin2 Pin3 Pin4 0 File=DataFileList1.FileName Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+end AVX_CP0603S
+
+define AVX_CP0805S(Pin1 Pin2 Pin3 Pin4)
+parameters PartNumber=1
+#uselib "ckt" , "DataFileList"
+DataFileList:DataFileList1 _List=list( \ 
+"CP0805AAS.S4P", \ 
+"CP0805ABS.S4P", \ 
+"CP0805ACS.S4P", \
+"CP0805ADS.S4P", \
+"CP0805AES.S4P", \
+"CP0805BAS.S4P", \
+"CP0805BBS.S4P", \
+"CP0805BCS.S4P", \
+"CP0805LAS.S4P", \
+"CP0805LBS.S4P") Index=PartNumber+1
+#uselib "ckt" , "S4P"
+S4P:SNP1  Pin1 Pin2 Pin3 Pin4 0 File=DataFileList1.FileName Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+end AVX_CP0805S
+
+define AVX_DB0603N(Pin1 Pin2 Pin3 Pin4)
+parameters PartNumber=1
+#uselib "ckt" , "DataFileList"
+DataFileList:DataFileList1 _List=list( \ 
+"DB0603N2017A.S4P", \
+"DB0603N2140A.S4P", \ 
+"DB0603N2400A.S4P", \ 
+"DB0603N2500A.S4P", \
+"DB0603N2560A.S4P", \
+"DB0603N2600A.S4P", \
+"DB0603N3000A.S4P", \
+"DB0603N3500A.S4P", \
+"DB0603N4600A.S4P", \
+"DB0603N5400A.S4P", \
+"DB0603N5500A.S4P", \
+"DB0603N5660A.S4P", \
+"DB0603N5800A.S4P") Index=PartNumber+1
+#uselib "ckt" , "S4P"
+S4P:SNP1  Pin1 Pin2 Pin3 Pin4 0 File=DataFileList1.FileName Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+end AVX_DB0603N
+
+define AVX_DB0805N(Pin1 Pin2 Pin3 Pin4)
+parameters PartNumber=1
+#uselib "ckt" , "DataFileList"
+DataFileList:DataFileList1 _List=list( \ 
+"DB0805A0850A.S4P", \
+"DB0805A0880A.S4P", \
+"DB0805A0915A.S4P", \
+"DB0805A0967A.S4P", \
+"DB0805A1325A.S4P", \
+"DB0805A1350A.S4P", \
+"DB0805A1650A.S4P", \
+"DB0805A1800A.S4P", \
+"DB0805A1850A.S4P", \
+"DB0805A1880A.S4P", \
+"DB0805A1900A.S4P", \
+"DB0805A1950A.S4P", \
+"DB0805A2017A.S4P", \
+"DB0805A2140A.S4P", \
+"DB0805A2325A.S4P", \
+"DB0805A2600A.S4P", \
+"DB0805A2650A.S4P") Index=PartNumber+1
+#uselib "ckt" , "S4P"
+S4P:SNP1  Pin1 Pin2 Pin3 Pin4 0 File=DataFileList1.FileName Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+end AVX_DB0805N

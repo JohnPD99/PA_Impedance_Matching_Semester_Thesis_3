@@ -1,0 +1,5 @@
+# Library Defs for AVX_RF_Components design kit
+DEFINE AVX_RF_Components_tech ./AVX_RF_Components_tech
+ASSIGN AVX_RF_Components_tech libMode readOnly
+DEFINE AVX_RF_Components ./AVX_RF_Components
+ASSIGN AVX_RF_Components libMode readOnly

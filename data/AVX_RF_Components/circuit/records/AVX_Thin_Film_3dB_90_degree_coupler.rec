@@ -1,0 +1,19 @@
+<?xml version="1.0" ?> 
+<COMPONENTS>
+ <COMPONENT>
+  <NAME>AVX_DB0603N</NAME>
+  <DESCRIPTION>3dB 90 degree Couplers Size 0603</DESCRIPTION>
+  <VENDOR>AVX Corp.</VENDOR>
+  <LIBRARY>AVX_RF_Components</LIBRARY>
+  <PLACEMENT>Both</PLACEMENT>
+  <URL>http://www.avx.com/docs/catalogs/db0603n.pdf</URL>
+ </COMPONENT>
+ <COMPONENT>
+  <NAME>AVX_DB0805N</NAME>
+  <DESCRIPTION>3dB 90 degree Couplers Size 0805</DESCRIPTION>
+  <VENDOR>AVX Corp.</VENDOR>
+  <LIBRARY>AVX_RF_Components</LIBRARY>
+  <PLACEMENT>Both</PLACEMENT>
+  <URL>http://www.avx.com/docs/catalogs/db0805.pdf</URL>
+ </COMPONENT>
+</COMPONENTS>

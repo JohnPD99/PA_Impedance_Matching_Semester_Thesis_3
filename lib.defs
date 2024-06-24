@@ -2,3 +2,7 @@ INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
 INCLUDE $HPEESOF_DIR/oalibs/dsp.defs
 DEFINE PA_Impedance_Matching_Semester_Thesis_3_lib PA_Impedance_Matching_Semester_Thesis_3_lib
 ASSIGN PA_Impedance_Matching_Semester_Thesis_3_lib libMode shared
+INCLUDE $HOME/Documents/PA_Impedance_Matching_Semester_Thesis_3/data/muRataLibWeb_C_EIA_confidential/lib.defs
+INCLUDE $HOME/Documents/PA_Impedance_Matching_Semester_Thesis_3/data/AVX_RF_Components/lib.defs
+DEFINE LTSpice_WE#2dKI#20#28rev22a#29_lib LTSpice_WE-KI${__SPACE}(rev22a)_lib
+ASSIGN LTSpice_WE#2dKI#20#28rev22a#29_lib libMode shared

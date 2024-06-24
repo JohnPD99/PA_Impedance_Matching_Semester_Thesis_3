@@ -1,0 +1,35 @@
+<?xml version="1.0" ?> 
+<COMPONENTS>
+ <COMPONENT>
+  <NAME>AVX_L0201</NAME>
+  <DESCRIPTION>Inductors Size 0201</DESCRIPTION>
+  <VENDOR>AVX Corp.</VENDOR>
+  <LIBRARY>AVX_RF_Components</LIBRARY>
+  <PLACEMENT>Both</PLACEMENT>
+  <URL>http://www.avx.com/docs/Catalogs/acculsmd.pdf</URL>
+ </COMPONENT>
+ <COMPONENT>
+  <NAME>AVX_L0402</NAME>
+  <DESCRIPTION>Inductors Size 0402</DESCRIPTION>
+  <VENDOR>AVX Corp.</VENDOR>
+  <LIBRARY>AVX_RF_Components</LIBRARY>
+  <PLACEMENT>Both</PLACEMENT>
+  <URL>http://www.avx.com/docs/catalogs/l0402lga.pdf</URL>
+ </COMPONENT>
+ <COMPONENT>
+  <NAME>AVX_L0603</NAME>
+  <DESCRIPTION>Inductors Size 0603</DESCRIPTION>
+  <VENDOR>AVX Corp.</VENDOR>
+  <LIBRARY>AVX_RF_Components</LIBRARY>
+  <PLACEMENT>Both</PLACEMENT>
+  <URL>http://www.avx.com/docs/Catalogs/acculsmd.pdf</URL>
+ </COMPONENT>
+ <COMPONENT>
+  <NAME>AVX_L0805</NAME>
+  <DESCRIPTION>Inductors Size 0805</DESCRIPTION>
+  <VENDOR>AVX Corp.</VENDOR>
+  <LIBRARY>AVX_RF_Components</LIBRARY>
+  <PLACEMENT>Both</PLACEMENT>
+  <URL>http://www.avx.com/docs/Catalogs/acculsmd.pdf</URL>
+ </COMPONENT>
+</COMPONENTS>

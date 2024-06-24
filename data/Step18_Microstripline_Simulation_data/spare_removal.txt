@@ -1,0 +1,12 @@
+(nil
+    spare_node_list(2)
+       (
+            "N__4"
+            "N__6"
+        )
+    spare_inst_list(2)
+       (
+            "Wire5"
+            "Wire6"
+        )
+)

@@ -1,0 +1,19 @@
+Netlist Translator (*) 600.shp Apr  3 2024
+ADS Netlist translation log
+
+Input format: LTSPICE
+Input filename: C:/Users/johnd/Downloads/LTSpice_WE-KI (rev22a).zip
+
+Output format: ADS Netlist file
+Output filename: C:\Users\johnd\Documents\PA_Impedance_Matching_Semester_Thesis_3\LTSpice_WE-KI (rev22a).net
+
+Special options:
+    Processing first line as comment.
+
+Begin translation at Sat Jun 22 23:56:15 2024
+
+Creating netlist.
+Reading item definition file "C:\Program Files\Keysight\ADS2024_Update2/config\spctoiff.cfg"
+Subcircuits found in Spice Netlist:   0
+Subcircuits written to ADS Netlist:   0
+Translation completed at Sat Jun 22 23:56:15 2024.

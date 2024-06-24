@@ -1,0 +1,28 @@
+create_constant_form("L0402R82ANTR","0:L0402R82ANTR 0.82nH, +/-0.05[nH], C0G(-55to125[deg]),:0 ",68,"0","\"L0402R82ANTR\"");
+create_constant_form("L04021R0ANTR","1:L04021R0ANTR 1.0nH, +/-0.05[nH], C0G(-55to125[deg]),:1 ",68,"1","\"L04021R0ANTR\"");
+create_constant_form("L04021R2ANTR","2:L04021R2ANTR 1.2nH, +/-0.05[nH], C0G(-55to125[deg]),:2 ",68,"2","\"L04021R2ANTR\"");
+create_constant_form("L04021R5ANTR","3:L04021R5ANTR 1.5nH, +/-0.05[nH], C0G(-55to125[deg]),:3 ",68,"3","\"L04021R5ANTR\"");
+create_constant_form("L04021R8ANTR","4:L04021R8ANTR 1.8nH, +/-0.05[nH], C0G(-55to125[deg]),:4 ",68,"4","\"L04021R8ANTR\"");
+create_constant_form("L04022R2ANTR","5:L04022R2ANTR 2.2nH, +/-0.05[nH], C0G(-55to125[deg]),:5 ",68,"5","\"L04022R2ANTR\"");
+create_constant_form("L04022R7ANTR","6:L04022R7ANTR 2.7nH, +/-0.05[nH], C0G(-55to125[deg]),:6 ",68,"6","\"L04022R7ANTR\"");
+create_constant_form("L04023R3BNTR","7:L04023R3BNTR 3.3nH, +/-0.1[nH], C0G(-55to125[deg]),:7 ",68,"7","\"L04023R3BNTR\"");
+create_constant_form("L04023R9BNTR","8:L04023R9BNTR 3.9nH, +/-0.1[nH], C0G(-55to125[deg]),:8 ",68,"8","\"L04023R9BNTR\"");
+create_constant_form("L04024R7BNTR","9:L04024R7BNTR 4.7nH, +/-0.1[nH], C0G(-55to125[deg]),:9 ",68,"9","\"L04024R7BNTR\"");
+create_constant_form("L04025R6BNTR","10:L04025R6BNTR 5.6nH, +/-0.1[nH], C0G(-55to125[deg]),:10 ",68,"10","\"L04025R6BNTR\"");
+create_constant_form("L04026R8BNTR","11:L04026R8BNTR 6.8nH, +/-0.1[nH], C0G(-55to125[deg]),:11 ",68,"11","\"L04026R8BNTR\"");
+create_form_set("AVX_L0402_list","L0402R82ANTR","L04021R0ANTR","L04021R2ANTR","L04021R5ANTR","L04021R8ANTR","L04022R2ANTR","L04022R7ANTR","L04023R3BNTR","L04023R9BNTR","L04024R7BNTR","L04025R6BNTR","L04026R8BNTR");
+
+create_compound_form("AVX_L0402_compound","Discrete Optimize setting","DistLibForm",68,"%p opt{ discrete %1p to %2p by 1 }","%s, %1s to %2s",
+create_parm("NOM","Nominal",32,"AVX_L0402_list",-1,prm("L0402R82ANTR")),
+create_parm("MIN","Minimum",32,"AVX_L0402_list",-1,prm("L04021R0ANTR")),
+create_parm("MAX","Maximum",32,"AVX_L0402_list",-1,prm("L04026R8BNTR")));
+create_form_set("AVX_L0402_list_opt","L0402R82ANTR","L04021R0ANTR","L04021R2ANTR","L04021R5ANTR","L04021R8ANTR","L04022R2ANTR","L04022R7ANTR","L04023R3BNTR","L04023R9BNTR","L04024R7BNTR","L04025R6BNTR","L04026R8BNTR","AVX_L0402_compound","value");
+
+create_item("AVX_L0201","0402 Inductor","L",0,-1,NULL,"Component Parameters","*","%43?global %;%d:%t %# %44?0%:%31?%C%:_net%c%;%;%e %b%r%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%e","AVX_L0201","%t%b%r%38?%:\n%30?%s%:%k%?[%1i]%;=%s%;%;%e%e%;","AVX_L0402",0,"NULL",32,
+create_parm("PartNumber","component description name",32,"AVX_L0402_list_opt",-1,prm("L0402R82ANTR"),
+    list(dm_create_cb(PARM_MODIFIED_CB,"AVX_L0402_parm_modifiedValue_cb","PartNumber",TRUE))),
+create_parm("Value","Component Value",262721,"StdFormSet",-1,prm("StdForm","0")),
+create_parm("Size","Component Size",262721,"StdFormSet",-1,prm("StdForm","0")),
+create_parm("MaxCurrent","Component Maximum Current",262721,"StdFormSet",-1,prm("StdForm","0")),
+create_parm("Tolerance","Component Tolerance",262721,"StdFormSet",-2,prm("StdForm","0")),
+create_parm("Temp","Component Temp",262721,"StdFormSet",-2,prm("StdForm","0")));

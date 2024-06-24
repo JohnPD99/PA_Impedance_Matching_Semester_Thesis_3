@@ -1,0 +1,69 @@
+define AVX_LP0402(Pin1 Pin2)
+parameters PartNumber=1 
+#uselib "ckt" , "DataFileList"
+DataFileList:DataFileList1 _List=list( \ 
+"LP0402N2600A.S2P", \
+"LP0402N2690A.S2P", \
+"LP0402N3500A.S2P", \
+"LP0402N5200A.S2P", \
+"LP0402N5500A.S2P") Index=PartNumber+1
+#uselib "ckt" , "S2P"
+S2P:SNP1  Pin1 Pin2 0 File=DataFileList1.FileName Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+end AVX_LP0402
+
+define AVX_LP0603(Pin1 Pin2)
+parameters PartNumber=1 
+#uselib "ckt" , "DataFileList"
+DataFileList:DataFileList1 _List=list( \ 
+"LP0603A0902A.S2P", \
+"LP0603A0947A.S2P", \
+"LP0603A0967A.S2P", \
+"LP0603A1747A.S2P", \
+"LP0603A1842A.S2P", \
+"LP0603A1880A.S2P", \
+"LP0603A1950A.S2P", \
+"LP0603A2140A.S2P", \
+"LP0603A2442A.S2P", \
+"LP0603N3500A.S2P", \
+"LP0603N5200A.S2P", \
+"LP0603N5500A.S2P") Index=PartNumber+1
+#uselib "ckt" , "S2P"
+S2P:SNP1  Pin1 Pin2 0 File=DataFileList1.FileName Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+end AVX_LP0603
+
+define AVX_LP0805(Pin1 Pin2)
+parameters PartNumber=1 
+#uselib "ckt" , "DataFileList"
+DataFileList:DataFileList1 _List=list( \ 
+"LP0805A0800A.S2P", \
+"LP0805A0836A.S2P", \
+"LP0805A0837A.S2P", \
+"LP0805A0881A.S2P", \
+"LP0805A0897A.S2P", \
+"LP0805A0900A.S2P", \
+"LP0805A0902A.S2P", \
+"LP0805A0942A.S2P", \
+"LP0805A0947A.S2P", \
+"LP0805A0965A.S2P", \
+"LP0805A0967A.S2P", \
+"LP0805A1119A.S2P", \
+"LP0805A1747A.S2P", \
+"LP0805A1750A.S2P", \
+"LP0805A1757A.S2P", \
+"LP0805A1800A.S2P", \
+"LP0805A1842A.S2P", \
+"LP0805A1880A.S2P", \
+"LP0805A1890A.S2P", \
+"LP0805A1900A.S2P", \
+"LP0805A1907A.S2P", \
+"LP0805A1950A.S2P", \
+"LP0805A1960A.S2P", \
+"LP0805A2100A.S2P", \
+"LP0805A2150A.S2P", \
+"LP0805A2442A.S2P", \
+"LP0805A2590A.S2P", \
+"LP0805A2750A.S2P", \
+"LP0805A3500A.S2P") Index=PartNumber+1
+#uselib "ckt" , "S2P"
+S2P:SNP1  Pin1 Pin2 0 File=DataFileList1.FileName Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+end AVX_LP0805

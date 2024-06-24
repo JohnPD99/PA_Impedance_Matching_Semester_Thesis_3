@@ -1,0 +1,27 @@
+<?xml version="1.0" ?> 
+<COMPONENTS>
+ <COMPONENT>
+  <NAME>AVX_LP0402</NAME>
+  <DESCRIPTION>Low Pass Filter LP0402</DESCRIPTION>
+  <VENDOR>AVX Corp.</VENDOR>
+  <LIBRARY>AVX_RF_Components</LIBRARY>
+  <PLACEMENT>Both</PLACEMENT>
+  <URL>http://www.avx.com/docs/catalogs/lp0402n.pdf</URL>
+ </COMPONENT>
+ <COMPONENT>
+  <NAME>AVX_LP0603</NAME>
+  <DESCRIPTION>Low Pass Filter LP0603</DESCRIPTION>
+  <VENDOR>AVX Corp.</VENDOR>
+  <LIBRARY>AVX_RF_Components</LIBRARY>
+  <PLACEMENT>Both</PLACEMENT>
+  <URL>http://www.avx.com/docs/catalogs/lp0603.pdf</URL>
+ </COMPONENT>
+ <COMPONENT>
+  <NAME>AVX_LP0805</NAME>
+  <DESCRIPTION>Low Pass Filter LP0805</DESCRIPTION>
+  <VENDOR>AVX Corp.</VENDOR>
+  <LIBRARY>AVX_RF_Components</LIBRARY>
+  <PLACEMENT>Both</PLACEMENT>
+  <URL>http://www.avx.com/docs/catalogs/lp0805.pdf</URL>
+ </COMPONENT>
+</COMPONENTS>
